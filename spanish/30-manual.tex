@@ -1,0 +1,300 @@
+\chapter{Instructions for use}
+\label{sec:manual}
+\section{The measurement operation}
+Using of the Transistor-Tester is simple.
+Anyway some hints are required.
+In most cases are wires with alligator clips connected to the test ports with plugs.
+Also sockets for transistors can be connected.
+In either case you can connect parts with three pins to the three test ports in any order.
+If your part has only two pins, you can connect this pins to any two of the tree test ports.
+Normally the polarity of part is irrelevant, you can also connect pins of electrolytical capacitors in any order. 
+The measurement of capacity is normally done in a way, that the minus pole is at the test port with the lower number.
+But, because the measurment voltage is only between 0.3 V and at most 1.3 V, the polarity doesn\'t matter.
+When the part is connected, you should not touch it during the measurement. You should put it down to a nonconducting pad
+if it is not placed in a socket. You should also not touch to the isolation of wires connected with the test ports.
+Otherwise the measurement results can be affected.
+Then you should press the start button.
+After displaying a start message, the measurement result should appear after two seconds.
+If capacitors are measured, the time to result can be longer corresponding to the capacity.
+
+How the transistor-tester continues, depends on the configuration of the software.
+\begin{description}
+  \item[Single measurement mode] If the tester is configured for single measurement mode (POWER\_OFF option), the tester shut off automatical 
+after displaying the result for 28 seconds for a longer lifetime of battery. 
+During the display time a next measurement can be started by pressing the start button.
+After the shut off a next measurement can be started too of course.
+The next measurement can be done with the same or another part.
+If you have not installed the electronic for automatic shut down, your
+last measurement result will be displayed until you start the next measurement.
+
+  \item[Endless measurement mode] A special case is the configuration without automatical shut off.
+For this case the POWER\_OFF option is not set in the Makefile.
+This configuration is normally only used without the transistors for the shut off function.
+A external off switch is necessary for this case. The tester will repeat measurements until power
+is switched off.
+
+  \item[Multi measurement mode] In this mode the tester will shut down not after the first measurement but 
+after a configurable series of measurements.
+For this condition a number (e.g.~5) is assigned to the POWER\_OFF option.
+In the standard case the tester will shut down after five
+measurements without found part. If any part is identified by test, the tester is shut down after double of
+five (ten) measurements. A single measurement with unknown part after a series of measurement of known parts will
+reset the counter of known measuerements to zero. Also a single measurement of known part will reset the counter
+of unknown measurements to zero. This behavior can result in a nearly endless series of measurements without
+pressing the start button, if parts are disconnected and connected in periodical manner.
+
+In this mode there is a special feature for the display period. If the start button is pressed only short for switching
+on the tester, the result of measurement ist only shown for 5 seconds. Buf if you press and hold the start button until
+the first message is shown, the further measurement results are shown for 28 seconds.
+The next measurement can started earlier by pressing the start button during the displaying of result.
+
+\end{description}
+
+\section{Optional menu functions for the ATmega328}
+If the menu function is selected, the tester start a selection menu after a long key press (\textgreater 500ms)
+for additional functions.
+The selectable functions are shown in row two of a 2-line display or as marked function in row 3 of a 4-line display.
+The previous and next function is also shown in row 2 and 4 of the display in this case.
+After a longer wait time without any interaction the program leave the menu and returns to the normal transistor tester function.
+With a short key press the next selection can be shown.
+A longer key press starts the shown or marked function.
+After showing the last function ''switch off'', the first function will be shown next.
+
+If your tester has also the rotary pulse encoder installed, you can call the menu with the additional functions
+also with a fast rotation of the encoder during the result of a previous test is shown.
+The menu functions can be selected with slow rotation of the encoder in every direction.
+Starting of the selected menu function can only be done with a key press.
+Within a selected function parameters can be selected with slow rotation of the encoder.
+A fast rotarion of the encoder will return to the selection menu.
+
+\begin{description}
+ \item[frequency]
+The additional function ''frequency'' (frequency measurement) uses the ATmega Pin PD4, which is also connected to the LCD.
+First the frequency is allways measured by counting.
+If the measured frequency is below \(25 kHz\), additionally the mean period of the input signal
+is measured and with this value the frequency is computed with a resolution of up to \(0.001 Hz\).
+By selecting the POWER\_OFF option in the Makefile, the period of frequency measurement is limited to 8~minutes.
+The frequency measurement will be finished with a key press and the selectable functions are shown again.\\
+
+ \item[f-Generator]
+With the additional function ''f-Generator'' (frequency generator) the selectable frequencies can be switched with key presses.
+After selecting the last choise of frequencies, the generator is switched back to
+the first frequency next (cyclical choise).
+If the POWER\_OFF option is selected in the Makefile, the key must be pressed longer, because a
+short key press (\textless~0.2~s) only reset the time limit of 4~minutes.
+The elapsed time is shown with a point for every 30 seconds in row 1 of the display.
+With periodical short key press you can prevent the time out of the frequency generation.
+With a long key press (\textgreater~0.8~s) you will stop the frequency generator and return to the function menu.\\
+
+\item[10-bit PWM]
+The additional function ''10-bit PWM'' (Pulse Width Modulation) generates a fixed frequency with selectable
+puls width at the pin TP2.
+With a short key press (\textless~0.5~s) the pulse width is increased by \(1 \%\), with a longer key press the pulse width
+is increased by \(10 \%\).
+If \(99 \%\) is overstepped, \(100 \%\) is subtracted from the result.
+If the POWER\_OFF option is selected in the Makefile, the frequency generation is finished after 8~minutes without any key press.
+The frequency generation can also be finished with a very long key press (\textgreater~1.3~s).\\
+
+\item[C+ESR@TP1:3]
+The additional function ''C+ESR@TP1:3'' selects a stand-alone capacity measurement with 
+ESR (Equivalent Series Resistance) measurement at the test pins TP1 and TP3. 
+Capacities from \(2 \mu F\) up to \(50 mF\) can be measured. 
+Because the measurement voltage is only about \(300 mV\), in most cases the capacitor can be
+measured ''in circuit'' without previous disassembling.
+If the POWER\_OFF option is selected in the Makefile, the count of measurements is limited
+to 250, but can be started immediately again.
+The series of measurements can be finished with a long key press.\\
+
+\item[rotary encoder]
+With the function ''rotary encoder'' a rotary encoder can be checked.
+The three pins of the rotary encoder must be connected to the three probes of the transistor tester 
+before the start of the function. 
+After starting the function the rotary knob must be turned.
+The tester finds out the common contact of the two switches and shows, if the indexed position has
+both contacts in open state ('o') or in closed state ('C').
+If the indexed position has both states, both characters ('o' and 'C') are shown alternating.\\
+
+\item[Selftest]
+With the menu function ''Selftest'' a full selftest with calibration is done.
+With that call all the test functions T1 to T7 (if not inhibited with the NO\_TEST\_T1\_T7 option) 
+and also the calibration with external capacitor is done every time.\\
+
+\item[Voltage]
+The additional function ''Voltage'' (Voltage measurement) is only possible, if the serial output is deselected
+or the ATmega has at least 32 pins (PLCC) and one of the additional pins ADC6 or ADC7 is used for the measurement.
+Because a 10:1 voltage divides is connected to PC3 (or ADC6/7), the maximum external voltage can be 50V.
+A installed DC-DC converter for zener diode measurement can be switched on by pressing the key.
+Thus connected zener diodes can be measured also.
+By selecting the POWER\_OFF option in the Makefile and without key pressing, the period of voltage measurement is limited to 4~minutes.
+The measurement can also be finished with a extra long key press (\textgreater~4~seconds).
+
+\item[Contrast] 
+This function can select the contrast value for a graphic display with a st7565 controller.
+The value can be decreased by a very short key press or left turn with the rotary encoder.
+A longer key press (\textgreater 0.4s) or a right turn of the rotary encoder will increase the value.
+The function will be finished and the selected value will be saved nonvolatile in the EEprom memory 
+by a very long key press (\textgreater 1.3s).
+
+ \item[Show data]
+The function ,,Show Data'' shows besides the version number of the software the data of the calibration.
+These are the zero resistance (R0) of the pin combination 1:3, 2:3 and 1:2 .
+In addition the resistance of the port outputs to the 5V side (RiHi) and
+to the 0V side (RiLo) are shown.
+The zero capacity values (C0) are also shown with all pin combinations (1:3, 2:3, 1:2 and 3:1, 3:2 2:1).
+At last the correction values for the comparator (REF\_C) and for the reference voltage (REF\_R) are also shown.
+Every page is shown for 15 seconds, but you can select the next page by a key press or a right turn of the rotary encoder.
+With a left turn of the rotary encoder you can repeat the output of the last page or return to the previous page.
+
+
+\item[Switch off]
+With the additional function ''Switch off'' the tester can be switched off immediately.\\
+
+\item[Transistor]
+Of course you can also select the function ''Transistor'' (Transistor tester) to return to a normal Transistor tester measurement. 
+\end{description}
+
+With the selected POWER\_OFF option in the Makefile, all additional functions are limited in time without interaction to prevent a discharged battery.
+
+
+\section{Selftest and Calibration}
+
+If the software is configured with the selftest function, the selftest can be prepared by connecting all three
+test ports together and pushing of the start button.
+To begin the self test, the start butten must be pressed again within 2 seconds, or else the tester will continue
+with a normal measurement.
+
+If the self test is started, all of the documented tests in the Selftest chapter \ref{sec:selftest} will be done.
+If the tester is configured with the menu function (option WITH\_MENU), 
+the full selftest with the tests T1 to T7 are only done with the ''Selftest'' function, 
+which is selectable as menu function.
+In addition the calibration with the external capacitor is done with every call from function menu,
+otherwise this part of calibration is only done first time.
+Thus the calibration with the automatically started selftest (shorted probes) can be done faster.
+The repetition of the tests T1 to T7 can be avoided, if the start button is hold pressed.
+So you can skip uninteresting tests fast and you can watch interresting tests by releasing the start button.
+The test 4 will finish only automatically if you separate the test ports (release connection).
+
+If the function AUTO\_CAL is selected in the Makefile, 
+the zero offset for the capacity measurement will be calibrated with the selftest.
+It is important for the calibration task, that the connection between the three test ports is relased 
+during test number 4. 
+You should not touch to any of the test ports or connected cables when calibration (after test 6) is done.
+But the equipment should be the same, which is used for further measurements.
+Otherwise the zero offset for capacity measurement is not detected correctly.
+The resistance values of port outputs are determined at the beginning of every measurement with this option.
+
+A capacitor with any capacity between \(100 nF\) and \(20 \mu F\) connected to pin~1 and pin~3 is
+required for the last task of calibration.
+To indicate that, a capacitor symbol is shown between the pin number 1 and 3, followed by the text '' \textgreater 100nF''.
+You should connect the capacitor not before this text is shown.
+With this capacitor the offset voltage of the analog comparator will be compensated for better measurement
+of capacity values.  
+Additionally the gain for ADC measurements using the internal reference voltage will be adjusted too 
+with the same capacitor for better resistor measurement results with the AUTOSCALE\_ADC option.
+If the menu option is selected for the tester and the selftest is not started as menu function,
+the calibration with the external capacitor is only done for the first time calibration.
+The calibration  with the external capacitor can be repeated with a selftest call as menu selection.
+
+The zero offset for the ESR measurement will be preset with the option ESR\_ZERO in the Makefile.
+With every self test the ESR zero values for all three pin combinations are determined.
+The solution for the ESR measurement is also used to get the values of resistors below \(10 \Omega\) with
+a resolution of \(0.01 \Omega\).
+
+
+\section{special using hints}
+Normally the Tester shows the battery voltage with every start. If the voltage fall below a limit,
+a warning is shown behind the battery voltage. If you use a rechargeable 9V battery, you should replace
+the battery as soon as possible or you should recharge.
+If you use a tester with attached 2.5V precision reference, the measured supply voltage will be shown
+in display row two for 1 second with ''VCC=x.xxV''.
+
+It can not repeat often enough, that capacitors should be discharged before measuring.
+Otherwise the Tester can be damaged before the start button is pressed.
+If you try to measure components in assembled condition, the equipment should be allways disconnected from power source.
+Furthermore you should be shure, that no residual voltage reside in the equipment.
+Every electronical equipment has capacitors inside!
+
+If you try to measure little resistor values, you should keep the resistance of plug connectors and cables in mind.
+The quality and condition of plug connectors are important, also the resistance of cables used for measurement.
+The same is in force for the ESR measurement of capacitors.
+With poor connection cable a ESR value of \(0.02 \Omega\) can grow to \(0.61 \Omega\).
+
+You should not expect very good accuracy of measurement results, especially the ESR measurement and the results of inductance measurement are not very exact.
+You can find the results of my test series in chapter \ref{sec:measurement}.
+
+\section{Compoments with problems}
+You should keep in mind by interpreting the measurement results, that the circuit of the TransistorTester is
+designed for small signal semiconductors. In normal measurement condition the measurement current can only reach about 6 mA.
+Power semiconductors often make trouble by reason of residual current with the identification an the measurement of junction capacity value.
+The Tester often can not deliver enough ignition current or holding current for power Thyristors or Triacs.
+So a Thyristor can be detected as NPN transistor or diode. Also it is possible, that a Thyristor or Triac is detected as unknown.
+
+Another problem is the identification of semiconductors with integrated resistors.
+So the base - emitter diode of a BU508D transistor can not be detected by reason of the parallel connected
+internal \(42 \Omega\) resistor.
+Therefore the transistor function can not be tested also.
+Problem with detection is also given with power Darlington transistors. We can find often internal
+base - emitter resistors, which make it difficult to identify the component with the undersized measurement current.
+
+\section{Measurement of PNP and NPN transistors}
+For normal measurement the three pins of the transistor will be connectet in any order to the measurement
+inputs of the TransistorTester.
+After pushing the start button, the Tester shows in row 1 the type (NPN or PNP), 
+a possible integrated protecting diode of the Collector - Emitter path and the
+sequence of pins. The diode symbol is shown with correct polarity.
+Row 2 shows the current amplification factor (B=...) and the Base - Emitter threshold voltage.
+You should know, that the Tester can measure the amplification factor with two different circuits,
+the common Emitter and the common Collector circuit (Emitter follower).
+Only the higher result is shown on the LCD.
+
+
+With the common Emitter circuit the tester has only two alternative to select the base current:
+\begin{enumerate}
+\item The \(680 \Omega\) resistor results to a base current of about 6.1mA. 
+This is too high for low level transistors with high amplification factor, because the base is saturated.
+Because the collector current is also measured with a \(680 \Omega\) resistor, the collector current
+can not reach the with the amplification factor higher value.
+The software version of Markus F. has measured the Base - Emitter threshold voltage in this ciruit (Uf=...).\\
+\item The \(470 k\Omega\) resistor results to a base current of only \(9.2 \mu A\) .
+This is very low for a power transistor with low current amplification factor.
+The software version of Markus F. has identified the current amplification factor with this circuit (hFE=...).\\
+\end{enumerate}
+
+The software of the Tester figure out the current amplification factor additionally with the common Collector circuit.
+The higher value of both measurement methodes is reported.
+The common collector circuit has the advantage, that the base current is reduced by negative current feedback corresponding
+to the amplification factor. 
+In most cases a better measurement current can be reached with this methode for power transistors
+with the \(680 \Omega\) resistor and for Darlington Transistors with \(470 k\Omega\) resistor.
+The reported Base - Emitter threshold voltage Uf is now measured with the same current used 
+for determination of the current amplification factor.
+However, if you want to know the Base - Emitter threshold voltage with a measurement current of about 6mA,
+you have to disconnect the Collector and to start a new measurement.
+With this connection, the Base - Emitter threshold voltage at 6 mA is reported. The capacity value
+in reverse direction of the diode is also reported.
+Of course you can also analyse the base - collector diode.
+
+With Germanium transistors often a Collector cutoff current \(I_{CE0}\) with currentless base or 
+a Collector residual current \(I_{CES}\) with base hold to the emitter level is measured.
+Only for ATmega328 processors the Collector cutoff current is shown in this case at the row 2 of the LCD 
+for 5 seconds or until the next keypress before showing the current amplification factor. 
+With cooling the cutoff current can be reduced significant for Germanium transistors.
+
+
+\section{Measurement of JFET and D-MOS transistors}
+Because the structure of JFET type is symmetrical, the Source and Drain of this transistores can not
+be differed.
+Normally one of the parameter of this transistor is the current of the transistor with the Gate at the same level as Source.
+This current is often higher than the current, which can be reached with the measurement circuit of the TransistorTester
+with the \(680 \Omega\) resistor.
+For this reason the \(680 \Omega\) resistor is connected to the Source. Thus the Gate get with the growing of current a negative
+bias voltage.
+The Tester reports the Source current of this circuit and additionally the bias voltage of the Gate.
+So various models can be differed.
+The D-MOS transistors (depletion type) are measured with the same methode.
+
+You should know for enhancement MOS transistors (P-E-MOS or N-E-MOS), that the measurement of the gate threshold voltage (Vth)
+is more difficult with little gate capacity values. You can get a better voltage value, if you connect a capacitor with a value
+of some nF parallel to the gate /source.
+The gate threshold voltage will be find out with a drain current of about 3.5mA for a P-E-MOS and about 4mA for a N-E-MOS.
+
