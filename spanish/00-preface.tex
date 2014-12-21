@@ -1,57 +1,22 @@
 \section*{Prefacio}
-\subsection*{El motivo principal}
-Todo aficionado conoce el siguiente problema: Desarmas un transistor de una placa impresa o coges uno de una colección.
-Si consigues obtener su número de identificación y tienes a mano una hoja de especificaciones o puede stener los documentos sobre esta parte, ya está todo hecho.
-Pero si no encuentras ningún documento, puedes no tener ni idea de qué tipo de elemento se trata.
-Con aproximaciones convencionales de mediciones es difícil y el gasto de tiempo invertido en obtener el tipo de elemento y sus parámetros es excesivo.
-Podría ser NPN, PNP, N- or P-Channel-Mosfet etc.
-Fue idea de Markus F. transferir esta tarea laboriosa a un microcontrolador AVR.
+\subsection*{Motivación principal}
+Todos los aficionados se han enfrentado al siguiente problema: 
 
-\subsection*{Cómo empezó mi trabajo}
-% My work with the software of the TransistorTester of Markus F. \cite{Frejek} has started, because I had problems with 
-Mi trabajo con el software del tester de transistores de Markus F. \cite{Frejek} comenzó, porque yo tenía problemas con mi programador. 
-% my programmer. I had bought a printed board and components, but I could not program the EEprom of 
-% the ATmega8 with the Windows driver without error messages. Therefore I took the software of Markus F. and changed all the accesses
-Había comprado una placa impresa y sus componentes, pero no pude programar la EEprom del ATmega8 con los drivers de Windows sin mensajes de error.
-% from the EEprom memory to flash memory accesses. By analysing the software in order to save memory
-Además cogí wel software de Markus F. y cambié todos los accessos de la memoria EEprom para \textit{flashear} los accessos a memoria.
+Desmontamos un transistor de un circuito o lo tomamos de nuestra colección. Si el número de identificación se puede ver, o se tiene a mano la hoja de especificaciones, no hay ningún problema. Pero si es imposible encontrar una referencia, y no hay documentos, entonces no tenemos ni idea de qué componente se puede tratar. La estrategia habitual de medir para conocer qué tipo de componente es y sus parámetros, con aproximaciones convencionales de mediciones, es complicada y toma tiempo. Podría tratarse de un NPN, PNP, N- o un Mosfet de canal P, etc. 
 
-%at other places of program, I had the idea, to change the result of the ReadADC function from ADC units
-to millivolt (mV) units. The mV resolution is needed for any output of voltage values.
-If ReadADC returns directly the mV resolution, I can save the conversion for each output value.
-This mV resolution can be get, if you first accumulate the results of 22 ADC readings.
- The sum must be multiplied with two and divided by nine. Then we have a maximum value of \begin{math}\frac{1023\cdot22\cdot2}{9} = 5001\end{math},
-which matches perfect to the wanted mV resolution of measured voltage values.
-So I additionally had the hope, that the enhancement of ADC resolution by oversampling could help to improve the
-voltage reading of the ADC, as described in AVR121 \cite{AVR121}.
-The original version ReadADC has accumulated the result of 20 ADC measurements and divides afterwards by 20, 
-so the result is equal to original ADC resolution. By this way never a enhancement of ADC resolution can take place.
-So I had to do little work to change the ReadADC, but this forced analysing the whole program and change
-of all ``if-statements'' in the program, where voltage values are queried.
-But this was only the beginning of my work!\\
+La idea de dejar toda esa tediosa tarea en manos de un microcontrolador AVR fue de Markus F.
 
-More and more ideas to make measurement faster and more accurate has been implemented.
-Additionally the range of resistor and capacity measurements are extended.
-The output format for LCD-Display was changed, so symbols are taken for diodes, resistors and capacitors instead of text.
-For further details take a look to the actual feature list chapter \ref{sec:features}.
-Planned work and new ideas are accumulated in the To Do List in chapter \ref{sec:todo}.
-By the way, now I can program the EEprom of the ATmega with Linux operating system without errors.
+\subsection*{Cómo comencé mi proyecto}
 
-At this place I would like to thank the originator and software author Markus Frejek, who has enabled the continuation
-with his initial work.
-In addition I would like to say thanks to the authors of numerous input to the discussion forum, which have assist me, to
-find new tasks, weak points and errors.
-Next I would like to thank Markus Reschke, who give me the permission, to publish his cheerful software versions at the
-SVN server. Furthermore some ideas and software part of Markus R. was integrated in my own software version,
-again thank you very much.
-Also Wolfgang SCH. has done a great job to support a graphical display with ST7565 controller. Many thanks to him
-for integrating his patch for 1.10k software version to the actual developer version.
-I have to thank also Asco B., who has developed a new printed board, to enable the reproductions for other hobbyists.
-Another thank I would like to send to Dirk W. , who has handled the omnibus order for this printed board.
-Never I had time anough to handle these things concurrently with my software developement, at no time the state of further
-developement of software would have the same level.
-Thanks for the many suggestions to improve the tester to the members of the local chapter of the ''Deutscher Amateur Radio Club (DARC)''
-in Lennestadt.
-Last but not least I would say thanks to Nick L. from Ukraine, who has supported my with his prototype boards, 
-has suggested some hardware add ons and also has organized the russian translation for this description.
+Mi implicación con el TransistorTester de Markus F. [1] comenzó cuando me encontré con problemas con mi programador. Había comprado una placa y unos componentes, pero no podía programar la EEprom del ATmega8 con el controlador de Windows sin obtener mensajes de error. Así que cogí el software de Markus F. y cambié todos los accesos a la memoria EEprom por accesos a la memoria flash. 
+
+Mientras analizaba el software para ahorrar memoria en otras partes del programa, tuve la idea de cambiar el resultado de la función ReadADC de las unidades del conversor analógico-digital a milivoltios (mV). El resultado en mV es necesario en cualquier salida de las medidas del voltaje. Si ReadADC devolviese directamente el resultado en mV, podría guardar la conversión para cada valor de salida. El resultado en mV puede obtenerse acumulando primero los resultados de 22 lecturas del conversor analógico-digital. Luego la suma se multiplica por dos y se divide por nueve. Así tenemos un valor máximo de $\frac{1023·22·2}{9} = 5001$, que coincide perfectamente con el resultado requerido en mV. 
+
+Además, tenía la esperanza de que la mejora en la resolución del conversor analógico-digital por sobremuestreo podría ayudar a mejorar las lecturas del conversor tal y como se describe en AVR121 [5]. La versión original de ReadADC acumulaba el resultado de 20 medidas y las dividía posteriormente por 20, así que el resultado es igual a la resolución original del conversor. Con este método no hay forma de obtener una mejora en la resolución del conversor. Las modificaciones a ReadADC fueron pequeñas, pero para hacerlas me vi obligado a analizar el programa entero y cambiar todas las sentencias "if" del código donde se necesitaban los valores de voltaje. 
+
+¡Y esto sólo fue el comienzo de mi proyecto! Se han implementado muchas más ideas para hacer las medidas más rápidas y más precisas. Además, se ha extendido el rango de las medidas de resistencia y capacidad. Se ha modificado el formato de salida para la pantalla LCD, sustituyendo texto por símbolos para los diodos, resistencias y condensadores. Para más detalles, consulte la lista de características actual en el capítulo 1. El trabajo planificado y las nuevas ideas están acumuladas en el capítulo 9. Por cierto, ahora puedo programar la EEprom del ATmega en un sistema operativo Linux sin errores.
+
+Llegados a este punto me gustaría agradecer al autor original del software Markus Frejek, quien facilitó la continuidad de su trabajo inicial. Además, me gustaría agradecer a los autores de numerosas respuestas en el foros de debate, quienes me han ayudado a encontrar nuevas tareas, puntos débiles y errores. A continuación, me gustaría dar las gracias a Markus Reschke, quien me dio el permiso para publicar las estupendas versiones del software en el servidor SVN. Además, algunas ideas y parte del software de Marks R. se han integrado en mi propia versión, así que, de nuevo, muchas gracias. Wolfgang SCH también ha hecho un trabajo fantástico para soportar una pantalla gráfica con el controlador ST7565. Muchas gracias por integrar su parche de la versión 1.10k en la actual versión de desarrollo. Tengo que agradecer igualmente a Asco B., quien desarrolló un nuevo circuito impreso para que otros aficionados pudieran reproducirla. También me gustaría agradecer a Dirk W. quien gestionó el pedido para imprimir el circuito. Nunca he tenido tiempo suficiente para gestionar estas cosas a la par que el desarrollo de software, y at no time the state of further developement of software would have the same level.
+
+Gracias por las muchas sugerencias para mejorar el multímetro a los miembros del capítulo local del Club de Radioaficionados Alemán (DARC) en Lennestadt. Y por último, querría dar las gracias a Nick L. de Ucrania, que me ha apoyado este prototipo con sus prototipos de circuitos, con sugerencias de componentes y también ha organizado la traducción rusa de esta descripción.
 
