@@ -10,6 +10,6 @@ Revisión técnica: Armando
 Traductores:
     * Iván Juanes Prieto
     * Félix J. Marcelo Wirnitzer
-    * Armando
+    * Armando ¿Sánchez?
     * Víctor Ruiz
 
