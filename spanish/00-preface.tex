@@ -1,19 +1,22 @@
-\section*{Preface}
-\subsection*{Basically Motive}
-Every hobbyist knows the following problem: You disassemle a Transistor out of a printed board 
-or you get one out of a collection box. 
-If you find out the identification number and you already have a data sheet or you can get the documents about this part,
- everything is well.
-But if you don't find any documents, you have no idea, what kind of part this can be.
-With conventional approach of measurement it is difficult and time-consuming to find out the type of the part and parameters.
-It could be a NPN, PNP, N- or P-Channel-Mosfet etc.
-It was the idea of Markus F. to hand over the work to a AVR microcontroller.
-\subsection*{As my work has started}
-My work with the software of the TransistorTester of Markus F. \cite{Frejek} has started, because I had problems with 
-my programmer. I had bought a printed board and components, but I could not program the EEprom of 
-the ATmega8 with the Windows driver without error messages. Therefore I took the software of Markus F. and changed all the accesses
-from the EEprom memory to flash memory accesses. By analysing the software in order to save memory
-at other places of program, I had the idea, to change the result of the ReadADC function from ADC units
+\section*{Prefacio}
+\subsection*{El motivo principal}
+Todo aficionado conoce el siguiente problema: Desarmas un transistor de una placa impresa o coges uno de una colección.
+Si consigues obtener su número de identificación y tienes a mano una hoja de especificaciones o puede stener los documentos sobre esta parte, ya está todo hecho.
+Pero si no encuentras ningún documento, puedes no tener ni idea de qué tipo de elemento se trata.
+Con aproximaciones convencionales de mediciones es difícil y el gasto de tiempo invertido en obtener el tipo de elemento y sus parámetros es excesivo.
+Podría ser NPN, PNP, N- or P-Channel-Mosfet etc.
+Fue idea de Markus F. transferir esta tarea laboriosa a un microcontrolador AVR.
+
+\subsection*{Cómo empezó mi trabajo}
+% My work with the software of the TransistorTester of Markus F. \cite{Frejek} has started, because I had problems with 
+Mi trabajo con el software del tester de transistores de Markus F. \cite{Frejek} comenzó, porque yo tenía problemas con mi programador. 
+% my programmer. I had bought a printed board and components, but I could not program the EEprom of 
+% the ATmega8 with the Windows driver without error messages. Therefore I took the software of Markus F. and changed all the accesses
+Había comprado una placa impresa y sus componentes, pero no pude programar la EEprom del ATmega8 con los drivers de Windows sin mensajes de error.
+% from the EEprom memory to flash memory accesses. By analysing the software in order to save memory
+Además cogí wel software de Markus F. y cambié todos los accessos de la memoria EEprom para \textit{flashear} los accessos a memoria.
+
+%at other places of program, I had the idea, to change the result of the ReadADC function from ADC units
 to millivolt (mV) units. The mV resolution is needed for any output of voltage values.
 If ReadADC returns directly the mV resolution, I can save the conversion for each output value.
 This mV resolution can be get, if you first accumulate the results of 22 ADC readings.
