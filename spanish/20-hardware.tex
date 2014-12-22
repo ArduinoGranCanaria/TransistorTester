@@ -1,81 +1,78 @@
 \chapter{Hardware}
 
-\section{Circuit of the TransistorTester}
+\section{El circuito del TransistorTester}
 \label{sec:hardware}
-The circuit of the TransistorTester in figure \ref{fig:ttester} is based on the circuit of
- Markus F. released in Abb.~1 of AVR-Transistortester report \cite{Frejek}.
-Changed or moved parts are marked with green color, optional parts are marked with red color.
 
-Some changes are made because the electronical power switch make problems in some implementations.
-Therefore the resistor R7 is reduced to \(3.3k\Omega\). The capacitor C2 is reduced to
-10nF and R8 is moved so that the PD6 output does not try to switch the C2 capacitor directly.
- Additional blocking capacitors are added and should be placed
-near the power connection of the Atmega and near the Voltage regulator.
+El circuito del  TransistorTester que aparece en  la figura \ref{fig:ttester} se basa  en el circuito de  Markus F. que.
+\cite{Frejek} ha publicado en la fig.~1 de su informe AVR-Transistortester Los componentes o partes movidos o cambiados.
+están marcados con el color verde, las partes opcionales están marcadas con el color rojo                            .
 
-Because the PD7 input and PC6 (RESET) are the only pins, where pull up resistors where
-needed, one extra \(27k\Omega\) resistor is added to the PD7 (pin~13) input. With this modification
-the software can disable all internal pull up resistors of the ATmega.
+Algunos  cambios se  han llevado  a cabo  porque el  interruptor electrónico  de corriente  causa problemas  en algunas
+implementaciones. Por  tanto la resistencia  R7 se ha  reducido a un  valor de \(3.3k\Omega\).  El condensador C2  se ha
+reducido a 10nF y R8 se  ha movido, de manera que la salida PD6 no intente  descargar el condensador C2 directamente. Se
+han añadido  condensadores de  desacoplado y deben  colocarse cerca  de la fuente  de energía del  ATmega y  cerca del
+regulador de voltaje.
 
-The additional crystal with its 22pF capacitors are optional added. 
-The accuracy of a crystal has the benefit of more stable time measurement for getting the
-capacitor values.
+Debido a que los únicos pines que necesitan resistencias  con PD7 y PC6 (RESET), una resistencia extra \(27k\Omega\) se
+añade  a la  entrada PD7  (pin~13). Con  esta modificación,  el software  puede desactivar  todas las  resistencias de
+polarización (pull-up) del ATmega.
 
-New software version can use a voltage scale switch of the ADC. The speed of switching is reduced
-by the external capacitor C1 at the AREF (21) pin of the ATmega. To avoid slowing down the
-measurement speed more than necessary, the value of this capacitor should be reduced to 1nF.
-Removing of the capacitor C1 is also possible.
-For adapting the software to the actual circuit take a look to the Makefile options in the
-configuring chapter \ref{sec:config}.
+Opcionalmente, se puede añadir un cristal de cuarzo con sus  condensadores de 22pF La precisión de un cristal trae el.
+beneficio de una medida de tiempo más estable para obtener los valores de los condensadores                           .
 
-Some different versions of R11 / R12 resistor combinations circulates
-in the internet. I~have adapted my software to the original of Markus F. \cite{Frejek} with \(10k\Omega\) and \(3.3k\Omega\).
+La nueva  versión del  software puede usar  el interruptor  de escalado de  voltaje de la  fuente de  alimentación. La
+velocidad de  conmutación se  reduce gracias al  condensador externo  C1 que está  conectado al pin  de AREF  (21) del
+ATmega. Para prevenir  una medición más lenta de la  necesaria, el valor de este condensador  debería reducirse hasta
+1nF. También  es posible  quitar el condensador  C1. Para  adaptar el software  al circuito actual  habrá que  echa un
+vistazo a las opciones del fichero Makefile en el capítulo sobre la configuración \ref{sec:config}.
 
-The additional 2.5V precision voltage reference connected at pin PC4 (ADC4) can be used to
-check and calibrate the VCC voltage, but is not required. You can use a LM4040-AIZ2.5 (0.1\%),
-a LT1004CZ-2.5 (0.8\%) or a LM336-Z2.5 (0.8\%) as voltage reference.
-If you don't install the precision voltage reference and you don't add the relay extension,
-you should install a pull up resistor R16 to PC4 with a higher resistance value (\(47k\Omega\)).
-This helps the software to detect the missing voltage reference.
-A optional ISP connector has been added to easier load new software versions to the tester.
+Por Internet circulan algunas versiones distintas de combinaciones de resistencias R11 / R12. He adaptado mi software al
+original de Markus F. \cite{Frejek} con resistencias de \(10k\Omega\) y \(3.3k\Omega\).
+
+La referencia  de tensión de  precisión adicional  de 2.5V en  el pin PC4  (ADC4) se  puede utilizar para  comprobar y
+calibrar la tensión VCC, aunque no es obligatoria.  También se puede utilizar un LM4040AIZ2.5 (0.1\%), un LT1004CZ-2.5
+(0.8\%) o un LM336-Z2.5 (0.8\%) como referencia de tensión. Si  no se instala la referencia de tensión de precisión y
+no  se quiere  añadir una  extensión de  retransmisión  (relay? o  es relé?),  se debería  instalar una  resistenca
+\texttt{pull up}  R16 a PC4  con una resistencia  de gran valor  (\(47k\Omega\)). Esto ayuda  al software a  detectar la
+referencia de tensión que falta. Se ha añadido un conector opcional ISP para facilitar la carga de nuevas versiones de
+software al tester.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=18cm]{../FIG/ttester.eps}
-\caption{New circuit of TransistorTester}
+\caption{El nuevo circuito del TransistorTester}
 \label{fig:ttester}
 \end{figure}
-The software can follow to another pin assignment of port D for a simpler connection of the
-LCD display. 
-The following table \ref{tab:grid-change} shows the modifies assignments for the strip grid layout and
-the connection of a graphical display for the micocontrollers ATmega8/168/328.
-Also the using of port inputs for additional functions is shown.
-With the connections for the graphical display with the strip grid option (STRIP\_GRID\_BOARD)
-the frequency counter function can not be used, because the port PD4 (T0) is used.
-But this connection is used by a chinese version with graphical display. 
 
+El software puede seguir a otra asignación de pines del puerto  D para una conexión más simple de la pantalla LCD. La
+siguiente tabla \ref{tab:grid-change} muestra las modificaciones de  las asignaciones para disposición de la rejilla de
+líneas y la conexión  de una pantalla gráfica para microcontroladores ATmega8/168/328. También  se muestra el uso de
+entradas de puertos para funciones adicionales. Con las conexiones para la pantalla gráfica con opción de disposición
+de rejilla de  líneas (STRIP\_GRID\_BOARD) no se puede usar  la función del contador de frecuencias,  porque el puerto
+PD4 (T0) está en uso. Pero esta conexión sí se usa en una versión china con pantalla gráfica.
 
 
 \begin{table}[H]
   \begin{center}
     \begin{tabular}{| c || c | c | c | c | c |}
     \hline
-           & character LCD & character LCD    & ST7565 LCD & ST7565 LCD       & additional function \\
-      Port &               & strip grid board &            & strip grid board &  \\
+           & carácter LCD & carácter LCD    & ST7565 LCD & ST7565 LCD       & función adicional \\
+      Puerto &               & placa de rejilla de líneas &            & placa de rejilla de líneas &  \\
     \hline
     \hline
-    PD0    &  LCD-D4       &  pushbutton    &  LCD-REST    &                  &  \\
+    PD0    &  LCD-D4       &  pulsador      &  LCD-REST    &                  &  \\
     \hline
-    PD1    &  LCD-D5       &  LCD-D7        &  LCD-RS      & LCD-SI           & rotary encoder 2  \\
+    PD1    &  LCD-D5       &  LCD-D7        &  LCD-RS      & LCD-SI           & codificador rotatorio 2  \\
     \hline
     PD2    &  LCD-D6       &  LCD-D6        &  LCD-SCLK    & LCD-SCLK         &  \\
     \hline
-    PD3    &  LCD-D7       &  LCD-D5        &  LCD-SI      & LCD-A0 (RS)      & rotary encoder 1 \\
+    PD3    &  LCD-D7       &  LCD-D5        &  LCD-SI      & LCD-A0 (RS)      & codificador rotatorio 1 \\
     \hline
-    PD4    &  LCD-RS       &  LCD-D4        &              & LCD-REST         & frequency counter \\
+    PD4    &  LCD-RS       &  LCD-D4        &              & LCD-REST         & contador de frecuencias \\
     \hline
     PD5    &  LCD-E        &  LCD-E         &              &                  &  \\
     \hline
-    PD7    &  pushbutton   &  LCD-RS        &              &                  &  \\
+    PD7    &  pulsador     &  LCD-RS        &              &                  &  \\
     \hline
     \end{tabular}
   \end{center}
@@ -84,41 +81,39 @@ But this connection is used by a chinese version with graphical display.
 \end{table}
 
 
-\subsection{Protection of the ATmega inputs}
+\subsection{Protección de las entradas del ATmega}
 
-For better protection of the ATmega inputs one of the additional circuits~ \ref{fig:relay_addon} 
-can be integrated. The de-energized contacts of the relay protect the ATmega without power.
-The contacts will be opened by software only for measurement.
-Also with the additional diode protection the chance of the ATmega will be better to survive the connection
-of a capacitor with higher residual voltage.
-A complete protection is not possible. Therefore capacitors should always be discharged before measuring.
+Para mejorar la protección de las entradas del ATmega, uno de los circuitos adicionales~ \ref{fig:relay_addon} se puede
+integrar. Los contactos sin carga del relé protege el ATmega sin corriente. Los contactos se abrirán mediante software
+únicamente  para medición.  También con  protección  adicional de  un diodo  la  posibilidad de  proteger el  ATmega
+mejorará frente a la conexión de un condensador con  tensión residual muy alta. Pero no será posible una protección
+completa. Además, los condensadores deben descargarse antes de proceder a la medición.
 
 \begin{figure}[H]
   \begin{subfigure}[b]{9cm}
     \centering
     \includegraphics[width=7cm]{../FIG/relay_addon.eps}
-    \caption{with Relay}
+    \caption{con relé}
   \end{subfigure}
   ~
   \begin{subfigure}[b]{9cm}
     \centering
     \includegraphics[width=7cm]{../FIG/diode_addon.eps}
-    \caption{with Diodes}
+    \caption{con diodos}
   \end{subfigure}
-  \caption{Additional protection of the ATmega inputs}
+  \caption{Protección adicional de las entradas del ATmega}
   \label{fig:relay_addon}
 \end{figure}
 
-\subsection{Measurement of zener voltage above 4 Volt}
+\subsection{Medición de tensión de un diodo zener por encima de 4 Volt}
 
-If the serial output of text is not required, the Pin PC3 of the ATmega can be used as analog
-input for measuring a external voltage. The voltage can be up to 50V with the optional 10:1 resistor
-divider and can be used for measuring the breakdown voltage of a zener diode. 
-A current limiting power supply with up to 50V can be switched on with low signal at PD7 pin of the
-ATmega to deliver current for testing the break down voltage of a zener diode.
-Figure~\ref{fig:zener} shows a suggestion for this expansion.
-The tester shows the external voltage as long as you hold the key pressed.
-About 40mA more battery current is used by this expansion during key pressing.
+Si no se requiere la salida  serie de texto, el pin PC3 del ATmega se puede usar  como entrada analógica para medir una
+tensión externa. La tensión puede  llegar hasta 50V con un divisor de resistencias 10:1 opcional  y se puede usar para
+medir la caída de tensión de un diodo zener. Una fuente de alimentación limitada actualmente a 50V puede conmutarse a
+una señal baja en el pin PD7 del ATmega para suministrar corriente con el fin de comprobar la tensión de ruptura de un
+diodo zener. La Figura~\ref{fig:zener} muestra una sugerencia para  esta expansión. El tester marca la tensión externa
+durante todo el tiempo que se mantenga presionado el botón. Alrededor de 40mA más de corriente de batería se usa para
+esta expansión durante el tiempo en que se presiona el botón.
 
 \begin{figure}[H]
 \centering
@@ -127,20 +122,18 @@ About 40mA more battery current is used by this expansion during key pressing.
 \label{fig:zener}
 \end{figure}
 
-The 10:1 voltage divider can be used with the optional dialog part for the ATmega328 without the 
-activated DC-DC converter for the zener diode measurement.
-Without the pressed key the voltage converter is not powered. For that the external voltage 
-(for example battery voltage) can be measured at the zener diode port.
-You can only measure positiv DC voltages up to 50V.
-You have also to respect the correct polarity.
+El divisor de tensión se puede usar con la parte opcional de diálogo para el ATmega328 sin el conversor DC-DC activado
+para medir  el diodo zener.  Si la tecla no  está presionada el  conversor de tensión  no está encendido. Por  eso la
+tensión externa  (por ejemplo, la tensión  de una batería) pueda  ser medida en el  puerto del diodo zener.  Sólo se
+pueden medir corrientes continuas positivas de gasta 50V. No se debe olvidar que hay que tener en cuenta la polaridad.
 
-\subsection{Frequency generator}
+\subsection{Generador de frecuencias}
 
-With the dialog part of the ATmega328 you can also select a frequency generator, which supports
-currently a selection of frequencies from \(1 Hz\) up to \(2 MHz\).
-The output of the 5V signal is done with a \(680\Omega\) resistor to test port TP2.
-You can use the GND signal from the minus pin of the zener diode extension or the test port TP1.
-The test port TP3 is connected to GND with a \(680\Omega\) resistor.
+Con la  parte de diálogo  del ATmega328 podemos  seleccionar un generador de  frecuencias, que soporta  actualmente una
+selección de frecuencias desde  \(1 Hz\) hasta \(2 MHz\). La salida  de la señal de 5V se hace  con una resistencia de
+\(680\Omega\) conectada al puerto  de test TP2. Podemos usar la  señal de tierra desde el cátodo  (pin negativo) de la
+extensión del diodo zener o el puerto de test de TP1. El  puerto de test TP3 se conecta a tierra con una resistencia de
+\(680\Omega\).
 
 \subsection{Frequency measurement}
 

@@ -1,10 +1,10 @@
 \select@language {spanish}
 \contentsline {chapter}{\numberline {1}Features}{5}{chapter.1}
 \contentsline {chapter}{\numberline {2}Hardware}{8}{chapter.2}
-\contentsline {section}{\numberline {2.1}Circuit of the TransistorTester}{8}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Protection of the ATmega inputs}{9}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Measurement of zener voltage above 4 Volt}{10}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Frequency generator}{10}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.1}El circuito del TransistorTester}{8}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Protecci\IeC {\'o}n de las entradas del ATmega}{9}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Medici\IeC {\'o}n de tensi\IeC {\'o}n de un diodo zener por encima de 4 Volt}{10}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Generador de frecuencias}{10}{subsection.2.1.3}
 \contentsline {subsection}{\numberline {2.1.4}Frequency measurement}{10}{subsection.2.1.4}
 \contentsline {subsection}{\numberline {2.1.5}Using of a rotary pulse encoder}{11}{subsection.2.1.5}
 \contentsline {subsection}{\numberline {2.1.6}Connection of a graphical display}{13}{subsection.2.1.6}

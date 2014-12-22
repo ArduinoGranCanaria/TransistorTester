@@ -1,9 +1,9 @@
 \BOOKMARK [0][-]{chapter.1}{Features}{}% 1
 \BOOKMARK [0][-]{chapter.2}{Hardware}{}% 2
-\BOOKMARK [1][-]{section.2.1}{Circuit of the TransistorTester}{chapter.2}% 3
-\BOOKMARK [2][-]{subsection.2.1.1}{Protection of the ATmega inputs}{section.2.1}% 4
-\BOOKMARK [2][-]{subsection.2.1.2}{Measurement of zener voltage above 4 Volt}{section.2.1}% 5
-\BOOKMARK [2][-]{subsection.2.1.3}{Frequency generator}{section.2.1}% 6
+\BOOKMARK [1][-]{section.2.1}{El circuito del TransistorTester}{chapter.2}% 3
+\BOOKMARK [2][-]{subsection.2.1.1}{Protecci\363n de las entradas del ATmega}{section.2.1}% 4
+\BOOKMARK [2][-]{subsection.2.1.2}{Medici\363n de tensi\363n de un diodo zener por encima de 4 Volt}{section.2.1}% 5
+\BOOKMARK [2][-]{subsection.2.1.3}{Generador de frecuencias}{section.2.1}% 6
 \BOOKMARK [2][-]{subsection.2.1.4}{Frequency measurement}{section.2.1}% 7
 \BOOKMARK [2][-]{subsection.2.1.5}{Using of a rotary pulse encoder}{section.2.1}% 8
 \BOOKMARK [2][-]{subsection.2.1.6}{Connection of a graphical display}{section.2.1}% 9
