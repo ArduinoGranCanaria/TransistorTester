@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2014.12.20)  22 DEC 2014 00:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2014.12.20)  22 DEC 2014 00:27
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1018,10 +1018,10 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 3.
 Package epstopdf Info: Source file: <../FIG/ttester.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 62897 bytes
 (epstopdf)             Output file: <../FIG/ttester-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 21894 bytes
 (epstopdf)             Command: <epstopdf --outfile=../FIG/ttester-eps-converte
 d-to.pdf ../FIG/ttester.eps>
@@ -1080,10 +1080,10 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 84.
 Package epstopdf Info: Source file: <../FIG/relay_addon.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 19784 bytes
 (epstopdf)             Output file: <../FIG/relay_addon-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 9756 bytes
 (epstopdf)             Command: <epstopdf --outfile=../FIG/relay_addon-eps-conv
 erted-to.pdf ../FIG/relay_addon.eps>
@@ -1097,10 +1097,10 @@ Package pdftex.def Info: ../FIG/relay_addon-eps-converted-to.pdf used on input
 line 95.
 (pdftex.def)             Requested size: 199.16928pt x 96.1529pt.
 Package epstopdf Info: Source file: <../FIG/diode_addon.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 24273 bytes
 (epstopdf)             Output file: <../FIG/diode_addon-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 10420 bytes
 (epstopdf)             Command: <epstopdf --outfile=../FIG/diode_addon-eps-conv
 erted-to.pdf ../FIG/diode_addon.eps>
@@ -1157,10 +1157,10 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 108.
 Package epstopdf Info: Source file: <../FIG/zener_exp.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 27404 bytes
 (epstopdf)             Output file: <../FIG/zener_exp-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 12149 bytes
 (epstopdf)             Command: <epstopdf --outfile=../FIG/zener_exp-eps-conver
 ted-to.pdf ../FIG/zener_exp.eps>
@@ -1225,11 +1225,11 @@ Package babel Info: Redefining spanish shorthand "?
  [10 <../FIG/relay_addon-eps-converted-to.pdf> <../FIG/diode_addon-eps-converte
 d-to.pdf> <../FIG/zener_exp-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../FIG/Frequency_addon.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 16858 bytes
 (epstopdf)             Output file: <../FIG/Frequency_addon-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 6297 bytes
 (epstopdf)             Command: <epstopdf --outfile=../FIG/Frequency_addon-eps-
 converted-to.pdf ../FIG/Frequency_addon.eps>
@@ -1256,11 +1256,11 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 159.
 Package epstopdf Info: Source file: <../FIG/rotary_extension.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 18524 bytes
 (epstopdf)             Output file: <../FIG/rotary_extension-eps-converted-to.p
 df>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 7449 bytes
 (epstopdf)             Command: <epstopdf --outfile=../FIG/rotary_extension-eps
 -converted-to.pdf ../FIG/rotary_extension.eps>
@@ -1300,11 +1300,11 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 175.
  [11 <../FIG/Frequency_addon-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../FIG/rotary_encoder.eps>
-(epstopdf)                    date: 2014-12-21 21:49:41
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 21232 bytes
 (epstopdf)             Output file: <../FIG/rotary_encoder-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2014-12-21 21:49:42
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 6985 bytes
 (epstopdf)             Command: <epstopdf --outfile=../FIG/rotary_encoder-eps-c
 onverted-to.pdf ../FIG/rotary_encoder.eps>
@@ -1345,11 +1345,11 @@ Package babel Info: Redefining spanish shorthand "?
  [12 <../FIG/rotary_extension-eps-converted-to.pdf> <../FIG/rotary_encoder-eps-
 converted-to.pdf>]
 Package epstopdf Info: Source file: <../FIG/rotary_bouncing.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 24924 bytes
 (epstopdf)             Output file: <../FIG/rotary_bouncing-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 8866 bytes
 (epstopdf)             Command: <epstopdf --outfile=../FIG/rotary_bouncing-eps-
 converted-to.pdf ../FIG/rotary_bouncing.eps>
@@ -1376,10 +1376,10 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 217.
 Package epstopdf Info: Source file: <../FIG/ST7565lcd.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 39708 bytes
 (epstopdf)             Output file: <../FIG/ST7565lcd-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 15220 bytes
 (epstopdf)             Command: <epstopdf --outfile=../FIG/ST7565lcd-eps-conver
 ted-to.pdf ../FIG/ST7565lcd.eps>
@@ -1547,10 +1547,10 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 399.
 [16]
 Package epstopdf Info: Source file: <../FIG/Fish8840.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:26:43
 (epstopdf)                    size: 27087 bytes
 (epstopdf)             Output file: <../FIG/Fish8840-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:26:44
 (epstopdf)                    size: 12140 bytes
 (epstopdf)             Command: <epstopdf --outfile=../FIG/Fish8840-eps-convert
 ed-to.pdf ../FIG/Fish8840.eps>
@@ -1606,10 +1606,10 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 441.
 [17 <../FIG/Fish8840-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../FIG/t644tester.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 135234 bytes
 (epstopdf)             Output file: <../FIG/t644tester-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 41994 bytes
 (epstopdf)             Command: <epstopdf --outfile=../FIG/t644tester-eps-conve
 rted-to.pdf ../FIG/t644tester.eps>
@@ -2376,10 +2376,10 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1.
 Package epstopdf Info: Source file: <../FIG/port.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 19962 bytes
 (epstopdf)             Output file: <../FIG/port-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 9315 bytes
 (epstopdf)             Command: <epstopdf --outfile=../FIG/port-eps-converted-t
 o.pdf ../FIG/port.eps>
@@ -2393,10 +2393,10 @@ Package pdftex.def Info: ../FIG/port-eps-converted-to.pdf used on input line 14
 .
 (pdftex.def)             Requested size: 224.83945pt x 123.46092pt.
 Package epstopdf Info: Source file: <../FIG/terminal.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 25557 bytes
 (epstopdf)             Output file: <../FIG/terminal-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 9929 bytes
 (epstopdf)             Command: <epstopdf --outfile=../FIG/terminal-eps-convert
 ed-to.pdf ../FIG/terminal.eps>
@@ -2480,10 +2480,10 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 2.
 Package epstopdf Info: Source file: <../FIG/JFETcd.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 44301 bytes
 (epstopdf)             Output file: <../FIG/JFETcd-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 17392 bytes
 (epstopdf)             Command: <epstopdf --outfile=../FIG/JFETcd-eps-converted
 -to.pdf ../FIG/JFETcd.eps>
@@ -2538,10 +2538,10 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 51.
 Package epstopdf Info: Source file: <../FIG/PNPcc.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:26:42
 (epstopdf)                    size: 44868 bytes
 (epstopdf)             Output file: <../FIG/PNPcc-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:26:46
 (epstopdf)                    size: 19680 bytes
 (epstopdf)             Command: <epstopdf --outfile=../FIG/PNPcc-eps-converted-
 to.pdf ../FIG/PNPcc.eps>
@@ -2581,10 +2581,10 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 69.
  [39 <../FIG/JFETcd-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../FIG/PNPce.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 44981 bytes
 (epstopdf)             Output file: <../FIG/PNPce-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 20082 bytes
 (epstopdf)             Command: <epstopdf --outfile=../FIG/PNPce-eps-converted-
 to.pdf ../FIG/PNPce.eps>
@@ -2635,10 +2635,10 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 100.
 Package epstopdf Info: Source file: <../FIG/NPNce.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 44878 bytes
 (epstopdf)             Output file: <../FIG/NPNce-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 20553 bytes
 (epstopdf)             Command: <epstopdf --outfile=../FIG/NPNce-eps-converted-
 to.pdf ../FIG/NPNce.eps>
@@ -2720,10 +2720,10 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 143.
 Package epstopdf Info: Source file: <../FIG/CheckSemi1.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 61471 bytes
 (epstopdf)             Output file: <../FIG/CheckSemi1-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 20896 bytes
 (epstopdf)             Command: <epstopdf --outfile=../FIG/CheckSemi1-eps-conve
 rted-to.pdf ../FIG/CheckSemi1.eps>
@@ -2763,10 +2763,10 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 151.
  [43 <../PNG/IRFU120gate.png>]
 Package epstopdf Info: Source file: <../FIG/CheckSemi2.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 80973 bytes
 (epstopdf)             Output file: <../FIG/CheckSemi2-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 26948 bytes
 (epstopdf)             Command: <epstopdf --outfile=../FIG/CheckSemi2-eps-conve
 rted-to.pdf ../FIG/CheckSemi2.eps>
@@ -2834,10 +2834,10 @@ Package babel Info: Redefining spanish shorthand "?
 
 [45 <../FIG/CheckSemi2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../FIG/CheckSemi3.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 42644 bytes
 (epstopdf)             Output file: <../FIG/CheckSemi3-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 15560 bytes
 (epstopdf)             Command: <epstopdf --outfile=../FIG/CheckSemi3-eps-conve
 rted-to.pdf ../FIG/CheckSemi3.eps>
@@ -3028,11 +3028,11 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 8.
 Package epstopdf Info: Source file: <../FIG/ResistormessL1.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 34876 bytes
 (epstopdf)             Output file: <../FIG/ResistormessL1-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 14355 bytes
 (epstopdf)             Command: <epstopdf --outfile=../FIG/ResistormessL1-eps-c
 onverted-to.pdf ../FIG/ResistormessL1.eps>
@@ -3046,11 +3046,11 @@ Package pdftex.def Info: ../FIG/ResistormessL1-eps-converted-to.pdf used on inp
 ut line 15.
 (pdftex.def)             Requested size: 406.51775pt x 159.59584pt.
 Package epstopdf Info: Source file: <../FIG/ResistormessL2.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 34876 bytes
 (epstopdf)             Output file: <../FIG/ResistormessL2-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 14489 bytes
 (epstopdf)             Command: <epstopdf --outfile=../FIG/ResistormessL2-eps-c
 onverted-to.pdf ../FIG/ResistormessL2.eps>
@@ -3065,10 +3065,10 @@ ut line 22.
 (pdftex.def)             Requested size: 406.51775pt x 159.59584pt.
  (../GNU/RLvtot.tex
 Package epstopdf Info: Source file: <../GNU/RLvtot.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 19996 bytes
 (epstopdf)             Output file: <../GNU/RLvtot-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 4111 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/RLvtot-eps-converted
 -to.pdf ../GNU/RLvtot.eps>
@@ -3113,10 +3113,10 @@ Package babel Info: Redefining spanish shorthand "?
  <../FIG/ResistormessL1-eps-converted-to.pdf> <../FIG/ResistormessL2-eps-conver
 ted-to.pdf>] (../GNU/RLvlow.tex
 Package epstopdf Info: Source file: <../GNU/RLvlow.eps>
-(epstopdf)                    date: 2014-12-21 21:49:38
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 20064 bytes
 (epstopdf)             Output file: <../GNU/RLvlow-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 21:49:44
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 3795 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/RLvlow-eps-converted
 -to.pdf ../GNU/RLvlow.eps>
@@ -3132,10 +3132,10 @@ Package pdftex.def Info: ../GNU/RLvlow-eps-converted-to.pdf used on input line
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
 ) (../GNU/RLvhigh.tex
 Package epstopdf Info: Source file: <../GNU/RLvhigh.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 20194 bytes
 (epstopdf)             Output file: <../GNU/RLvhigh-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 3791 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/RLvhigh-eps-converte
 d-to.pdf ../GNU/RLvhigh.eps>
@@ -3192,11 +3192,11 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 89.
 Package epstopdf Info: Source file: <../FIG/ResistormessH1.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 34735 bytes
 (epstopdf)             Output file: <../FIG/ResistormessH1-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 14226 bytes
 (epstopdf)             Command: <epstopdf --outfile=../FIG/ResistormessH1-eps-c
 onverted-to.pdf ../FIG/ResistormessH1.eps>
@@ -3210,11 +3210,11 @@ Package pdftex.def Info: ../FIG/ResistormessH1-eps-converted-to.pdf used on inp
 ut line 107.
 (pdftex.def)             Requested size: 406.51775pt x 159.59584pt.
 Package epstopdf Info: Source file: <../FIG/ResistormessH2.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 34736 bytes
 (epstopdf)             Output file: <../FIG/ResistormessH2-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 12935 bytes
 (epstopdf)             Command: <epstopdf --outfile=../FIG/ResistormessH2-eps-c
 onverted-to.pdf ../FIG/ResistormessH2.eps>
@@ -3254,10 +3254,10 @@ Package babel Info: Redefining spanish shorthand "?
  [53 <../GNU/RLvlow-eps-converted-to.pdf> <../GNU/RLvhigh-eps-converted-to.pdf>
  <../FIG/ResistormessH1-eps-converted-to.pdf>] (../GNU/RHv.tex
 Package epstopdf Info: Source file: <../GNU/RHv.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 20225 bytes
 (epstopdf)             Output file: <../GNU/RHv-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 4329 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/RHv-eps-converted-to
 .pdf ../GNU/RHv.eps>
@@ -3286,10 +3286,10 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 126.
  (../GNU/Mega8res.tex
 Package epstopdf Info: Source file: <../GNU/Mega8res.eps>
-(epstopdf)                    date: 2014-12-21 21:49:38
+(epstopdf)                    date: 2014-12-22 00:26:40
 (epstopdf)                    size: 23107 bytes
 (epstopdf)             Output file: <../GNU/Mega8res-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 21:49:44
+(epstopdf)                    date: 2014-12-22 00:26:47
 (epstopdf)                    size: 7003 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/Mega8res-eps-convert
 ed-to.pdf ../GNU/Mega8res.eps>
@@ -3331,10 +3331,10 @@ Package babel Info: Redefining spanish shorthand "?
  [54 <../FIG/ResistormessH2-eps-converted-to.pdf> <../GNU/RHv-eps-converted-to.
 pdf>] (../GNU/Mega8Ares.tex
 Package epstopdf Info: Source file: <../GNU/Mega8Ares.eps>
-(epstopdf)                    date: 2014-12-21 21:49:38
+(epstopdf)                    date: 2014-12-22 00:26:40
 (epstopdf)                    size: 22445 bytes
 (epstopdf)             Output file: <../GNU/Mega8Ares-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 21:49:45
+(epstopdf)                    date: 2014-12-22 00:26:47
 (epstopdf)                    size: 6455 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/Mega8Ares-eps-conver
 ted-to.pdf ../GNU/Mega8Ares.eps>
@@ -3350,10 +3350,10 @@ ne 129.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
 ) (../GNU/Mega8Lres.tex
 Package epstopdf Info: Source file: <../GNU/Mega8Lres.eps>
-(epstopdf)                    date: 2014-12-21 21:49:38
+(epstopdf)                    date: 2014-12-22 00:26:40
 (epstopdf)                    size: 22554 bytes
 (epstopdf)             Output file: <../GNU/Mega8Lres-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 21:49:45
+(epstopdf)                    date: 2014-12-22 00:26:48
 (epstopdf)                    size: 6401 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/Mega8Lres-eps-conver
 ted-to.pdf ../GNU/Mega8Lres.eps>
@@ -3374,10 +3374,10 @@ Overfull \hbox (5.22214pt too wide) in paragraph at lines 153--166
 
 (../GNU/Mega168res.tex
 Package epstopdf Info: Source file: <../GNU/Mega168res.eps>
-(epstopdf)                    date: 2014-12-21 21:49:38
+(epstopdf)                    date: 2014-12-22 00:26:40
 (epstopdf)                    size: 21347 bytes
 (epstopdf)             Output file: <../GNU/Mega168res-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 21:49:46
+(epstopdf)                    date: 2014-12-22 00:26:48
 (epstopdf)                    size: 5184 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/Mega168res-eps-conve
 rted-to.pdf ../GNU/Mega168res.eps>
@@ -3419,10 +3419,10 @@ Package babel Info: Redefining spanish shorthand "?
  [55 <../GNU/Mega8res-eps-converted-to.pdf> <../GNU/Mega8Ares-eps-converted-to.
 pdf> <../GNU/Mega8Lres-eps-converted-to.pdf>] (../GNU/m168res_all.tex
 Package epstopdf Info: Source file: <../GNU/m168res_all.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 22871 bytes
 (epstopdf)             Output file: <../GNU/m168res_all-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 6434 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/m168res_all-eps-conv
 erted-to.pdf ../GNU/m168res_all.eps>
@@ -3438,10 +3438,10 @@ line 135.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
 ) (../GNU/m168ares_all.tex
 Package epstopdf Info: Source file: <../GNU/m168ares_all.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 22846 bytes
 (epstopdf)             Output file: <../GNU/m168ares_all-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 6404 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/m168ares_all-eps-con
 verted-to.pdf ../GNU/m168ares_all.eps>
@@ -3486,10 +3486,10 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 210.
 [56 <../GNU/Mega168res-eps-converted-to.pdf>] (../GNU/m168pres_all.tex
 Package epstopdf Info: Source file: <../GNU/m168pres_all.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 22831 bytes
 (epstopdf)             Output file: <../GNU/m168pres_all-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 6348 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/m168pres_all-eps-con
 verted-to.pdf ../GNU/m168pres_all.eps>
@@ -3505,10 +3505,10 @@ Package pdftex.def Info: ../GNU/m168pres_all-eps-converted-to.pdf used on input
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
 ) (../GNU/m328res_all.tex
 Package epstopdf Info: Source file: <../GNU/m328res_all.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 22871 bytes
 (epstopdf)             Output file: <../GNU/m328res_all-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 6472 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/m328res_all-eps-conv
 erted-to.pdf ../GNU/m328res_all.eps>
@@ -3524,10 +3524,10 @@ line 135.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
 ) (../GNU/m328pres_all.tex
 Package epstopdf Info: Source file: <../GNU/m328pres_all.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 22858 bytes
 (epstopdf)             Output file: <../GNU/m328pres_all-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 6470 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/m328pres_all-eps-con
 verted-to.pdf ../GNU/m328pres_all.eps>
@@ -3639,10 +3639,10 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 25.
 Package epstopdf Info: Source file: <../FIG/Bigcap.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 71602 bytes
 (epstopdf)             Output file: <../FIG/Bigcap-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 26567 bytes
 (epstopdf)             Command: <epstopdf --outfile=../FIG/Bigcap-eps-converted
 -to.pdf ../FIG/Bigcap.eps>
@@ -3774,10 +3774,10 @@ Package babel Info: Redefining spanish shorthand "?
  [61 <../PNG/charge_229uF.png> <../PNG/charge_5mF.png> <../PNG/charge_15mF.png>
 ]
 Package epstopdf Info: Source file: <../FIG/Comparat.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 26057 bytes
 (epstopdf)             Output file: <../FIG/Comparat-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 14041 bytes
 (epstopdf)             Command: <epstopdf --outfile=../FIG/Comparat-eps-convert
 ed-to.pdf ../FIG/Comparat.eps>
@@ -3836,10 +3836,10 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 152.
 Package epstopdf Info: Source file: <../FIG/Cap_equiv.eps>
-(epstopdf)                    date: 2014-12-21 21:49:40
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 15894 bytes
 (epstopdf)             Output file: <../FIG/Cap_equiv-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 21:49:46
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 4838 bytes
 (epstopdf)             Command: <epstopdf --outfile=../FIG/Cap_equiv-eps-conver
 ted-to.pdf ../FIG/Cap_equiv.eps>
@@ -3870,10 +3870,10 @@ LaTeX Warning: Command \textdegree invalid in math mode on input line 169.
 Missing character: There is no ° in font cmr12!
 (../GNU/Cap_FC_data.tex
 Package epstopdf Info: Source file: <../GNU/Cap_FC_data.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:26:41
 (epstopdf)                    size: 21962 bytes
 (epstopdf)             Output file: <../GNU/Cap_FC_data-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:26:49
 (epstopdf)                    size: 8029 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/Cap_FC_data-eps-conv
 erted-to.pdf ../GNU/Cap_FC_data.eps>
@@ -3915,10 +3915,10 @@ Package babel Info: Redefining spanish shorthand "?
  [63 <../PNG/charge_22uF.png> <../FIG/Cap_equiv-eps-converted-to.pdf>] (../GNU/
 Cap_FR_data.tex
 Package epstopdf Info: Source file: <../GNU/Cap_FR_data.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 20226 bytes
 (epstopdf)             Output file: <../GNU/Cap_FR_data-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 5818 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/Cap_FR_data-eps-conv
 erted-to.pdf ../GNU/Cap_FR_data.eps>
@@ -3934,11 +3934,11 @@ line 108.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
 ) (../GNU/Cap_FC_FR_data.tex
 Package epstopdf Info: Source file: <../GNU/Cap_FC_FR_data.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 20042 bytes
 (epstopdf)             Output file: <../GNU/Cap_FC_FR_data-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 5478 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/Cap_FC_FR_data-eps-c
 onverted-to.pdf ../GNU/Cap_FC_FR_data.eps>
@@ -4017,10 +4017,10 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 246.
 Package epstopdf Info: Source file: <../FIG/Cap_esr.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 53799 bytes
 (epstopdf)             Output file: <../FIG/Cap_esr-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 22198 bytes
 (epstopdf)             Command: <epstopdf --outfile=../FIG/Cap_esr-eps-converte
 d-to.pdf ../FIG/Cap_esr.eps>
@@ -4146,10 +4146,10 @@ Package babel Info: Redefining spanish shorthand "?
 [68 <../PNG/ESR_4uF.png> <../PNG/ESR4uF6R8.png> <../PNG/ESR_2uF_pin2GND.png> <.
 ./PNG/ESR_2uF_pin2pin.png>] (../GNU/Cesr.tex
 Package epstopdf Info: Source file: <../GNU/Cesr.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 25647 bytes
 (epstopdf)             Output file: <../GNU/Cesr-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 13571 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/Cesr-eps-converted-t
 o.pdf ../GNU/Cesr.eps>
@@ -4177,11 +4177,11 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 373.
 Package epstopdf Info: Source file: <../FIG/Cap_esr2_timing.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 17655 bytes
 (epstopdf)             Output file: <../FIG/Cap_esr2_timing-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 7203 bytes
 (epstopdf)             Command: <epstopdf --outfile=../FIG/Cap_esr2_timing-eps-
 converted-to.pdf ../FIG/Cap_esr2_timing.eps>
@@ -4221,10 +4221,10 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 394.
  [69 <../GNU/Cesr-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../FIG/Cap_esr2.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 90980 bytes
 (epstopdf)             Output file: <../FIG/Cap_esr2-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 31844 bytes
 (epstopdf)             Command: <epstopdf --outfile=../FIG/Cap_esr2-eps-convert
 ed-to.pdf ../FIG/Cap_esr2.eps>
@@ -4308,10 +4308,10 @@ Overfull \hbox (5.22214pt too wide) in paragraph at lines 421--432
 
 (../GNU/Cesr2.tex
 Package epstopdf Info: Source file: <../GNU/Cesr2.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 26023 bytes
 (epstopdf)             Output file: <../GNU/Cesr2-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 13221 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/Cesr2-eps-converted-
 to.pdf ../GNU/Cesr2.eps>
@@ -4353,10 +4353,10 @@ Package babel Info: Redefining spanish shorthand "?
  [72 <../PNG/NewEsr10uF0R0.png> <../PNG/NewEsr10uF2R7.png>] (../GNU/Elco_esr.te
 x
 Package epstopdf Info: Source file: <../GNU/Elco_esr.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 21750 bytes
 (epstopdf)             Output file: <../GNU/Elco_esr-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 6163 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/Elco_esr-eps-convert
 ed-to.pdf ../GNU/Elco_esr.eps>
@@ -4372,10 +4372,10 @@ e 138.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
 ) (../GNU/res_esr.tex
 Package epstopdf Info: Source file: <../GNU/res_esr.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 21823 bytes
 (epstopdf)             Output file: <../GNU/res_esr-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 5790 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/res_esr-eps-converte
 d-to.pdf ../GNU/res_esr.eps>
@@ -4503,10 +4503,10 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 574.
  [75] (../GNU/Mega8cap.tex
 Package epstopdf Info: Source file: <../GNU/Mega8cap.eps>
-(epstopdf)                    date: 2014-12-21 21:49:38
+(epstopdf)                    date: 2014-12-22 00:26:40
 (epstopdf)                    size: 21911 bytes
 (epstopdf)             Output file: <../GNU/Mega8cap-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 21:49:47
+(epstopdf)                    date: 2014-12-22 00:26:49
 (epstopdf)                    size: 6620 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/Mega8cap-eps-convert
 ed-to.pdf ../GNU/Mega8cap.eps>
@@ -4522,10 +4522,10 @@ e 128.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
 ) (../GNU/Mega8Acap.tex
 Package epstopdf Info: Source file: <../GNU/Mega8Acap.eps>
-(epstopdf)                    date: 2014-12-21 21:49:38
+(epstopdf)                    date: 2014-12-22 00:26:40
 (epstopdf)                    size: 21327 bytes
 (epstopdf)             Output file: <../GNU/Mega8Acap-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 21:49:48
+(epstopdf)                    date: 2014-12-22 00:26:50
 (epstopdf)                    size: 6149 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/Mega8Acap-eps-conver
 ted-to.pdf ../GNU/Mega8Acap.eps>
@@ -4541,10 +4541,10 @@ ne 126.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
 ) (../GNU/Mega8Lcap.tex
 Package epstopdf Info: Source file: <../GNU/Mega8Lcap.eps>
-(epstopdf)                    date: 2014-12-21 21:49:38
+(epstopdf)                    date: 2014-12-22 00:26:40
 (epstopdf)                    size: 21345 bytes
 (epstopdf)             Output file: <../GNU/Mega8Lcap-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 21:49:48
+(epstopdf)                    date: 2014-12-22 00:26:50
 (epstopdf)                    size: 5976 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/Mega8Lcap-eps-conver
 ted-to.pdf ../GNU/Mega8Lcap.eps>
@@ -4565,10 +4565,10 @@ Overfull \hbox (5.22214pt too wide) in paragraph at lines 583--596
 
 (../GNU/Mega168cap.tex
 Package epstopdf Info: Source file: <../GNU/Mega168cap.eps>
-(epstopdf)                    date: 2014-12-21 21:49:38
+(epstopdf)                    date: 2014-12-22 00:26:41
 (epstopdf)                    size: 20102 bytes
 (epstopdf)             Output file: <../GNU/Mega168cap-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 21:49:48
+(epstopdf)                    date: 2014-12-22 00:26:51
 (epstopdf)                    size: 4704 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/Mega168cap-eps-conve
 rted-to.pdf ../GNU/Mega168cap.eps>
@@ -4610,10 +4610,10 @@ Package babel Info: Redefining spanish shorthand "?
  [76 <../GNU/Mega8cap-eps-converted-to.pdf> <../GNU/Mega8Acap-eps-converted-to.
 pdf> <../GNU/Mega8Lcap-eps-converted-to.pdf>] (../GNU/capcompare.tex
 Package epstopdf Info: Source file: <../GNU/capcompare.eps>
-(epstopdf)                    date: 2014-12-21 21:49:38
+(epstopdf)                    date: 2014-12-22 00:26:41
 (epstopdf)                    size: 21686 bytes
 (epstopdf)             Output file: <../GNU/capcompare-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 21:49:49
+(epstopdf)                    date: 2014-12-22 00:26:51
 (epstopdf)                    size: 5963 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/capcompare-eps-conve
 rted-to.pdf ../GNU/capcompare.eps>
@@ -4655,10 +4655,10 @@ Package babel Info: Redefining spanish shorthand "?
  [77 <../GNU/Mega168cap-eps-converted-to.pdf> <../GNU/capcompare-eps-converted-
 to.pdf>] (../GNU/Mega168all.tex
 Package epstopdf Info: Source file: <../GNU/Mega168all.eps>
-(epstopdf)                    date: 2014-12-21 21:49:38
+(epstopdf)                    date: 2014-12-22 00:26:41
 (epstopdf)                    size: 21729 bytes
 (epstopdf)             Output file: <../GNU/Mega168all-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 21:49:49
+(epstopdf)                    date: 2014-12-22 00:26:52
 (epstopdf)                    size: 6199 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/Mega168all-eps-conve
 rted-to.pdf ../GNU/Mega168all.eps>
@@ -4674,10 +4674,10 @@ ine 124.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
 ) (../GNU/Mega168Aall.tex
 Package epstopdf Info: Source file: <../GNU/Mega168Aall.eps>
-(epstopdf)                    date: 2014-12-21 21:49:38
+(epstopdf)                    date: 2014-12-22 00:26:41
 (epstopdf)                    size: 22020 bytes
 (epstopdf)             Output file: <../GNU/Mega168Aall-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 21:49:50
+(epstopdf)                    date: 2014-12-22 00:26:52
 (epstopdf)                    size: 6219 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/Mega168Aall-eps-conv
 erted-to.pdf ../GNU/Mega168Aall.eps>
@@ -4698,10 +4698,10 @@ Overfull \hbox (5.22214pt too wide) in paragraph at lines 633--646
 
 (../GNU/Mega168PAall.tex
 Package epstopdf Info: Source file: <../GNU/Mega168PAall.eps>
-(epstopdf)                    date: 2014-12-21 21:49:38
+(epstopdf)                    date: 2014-12-22 00:26:41
 (epstopdf)                    size: 21882 bytes
 (epstopdf)             Output file: <../GNU/Mega168PAall-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 21:49:50
+(epstopdf)                    date: 2014-12-22 00:26:53
 (epstopdf)                    size: 6053 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/Mega168PAall-eps-con
 verted-to.pdf ../GNU/Mega168PAall.eps>
@@ -4717,10 +4717,10 @@ Package pdftex.def Info: ../GNU/Mega168PAall-eps-converted-to.pdf used on input
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
 ) (../GNU/Mega328all.tex
 Package epstopdf Info: Source file: <../GNU/Mega328all.eps>
-(epstopdf)                    date: 2014-12-21 21:49:38
+(epstopdf)                    date: 2014-12-22 00:26:41
 (epstopdf)                    size: 21998 bytes
 (epstopdf)             Output file: <../GNU/Mega328all-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 21:49:51
+(epstopdf)                    date: 2014-12-22 00:26:53
 (epstopdf)                    size: 6242 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/Mega328all-eps-conve
 rted-to.pdf ../GNU/Mega328all.eps>
@@ -4736,10 +4736,10 @@ ine 128.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
 ) (../GNU/Mega328Pall.tex
 Package epstopdf Info: Source file: <../GNU/Mega328Pall.eps>
-(epstopdf)                    date: 2014-12-21 21:49:38
+(epstopdf)                    date: 2014-12-22 00:26:41
 (epstopdf)                    size: 22354 bytes
 (epstopdf)             Output file: <../GNU/Mega328Pall-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 21:49:51
+(epstopdf)                    date: 2014-12-22 00:26:54
 (epstopdf)                    size: 6354 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/Mega328Pall-eps-conv
 erted-to.pdf ../GNU/Mega328Pall.eps>
@@ -4785,11 +4785,11 @@ Package babel Info: Redefining spanish shorthand "?
 [78 <../GNU/Mega168all-eps-converted-to.pdf> <../GNU/Mega168Aall-eps-converted-
 to.pdf> <../GNU/Mega168PAall-eps-converted-to.pdf>] (../GNU/Mega168cap_opt.tex
 Package epstopdf Info: Source file: <../GNU/Mega168cap_opt.eps>
-(epstopdf)                    date: 2014-12-21 21:49:38
+(epstopdf)                    date: 2014-12-22 00:26:41
 (epstopdf)                    size: 21743 bytes
 (epstopdf)             Output file: <../GNU/Mega168cap_opt-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2014-12-21 21:49:52
+(epstopdf)                    date: 2014-12-22 00:26:54
 (epstopdf)                    size: 6135 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/Mega168cap_opt-eps-c
 onverted-to.pdf ../GNU/Mega168cap_opt.eps>
@@ -4845,11 +4845,11 @@ Package babel Info: Redefining spanish shorthand "?
 
 (../GNU/ComparatorAdjust.tex
 Package epstopdf Info: Source file: <../GNU/ComparatorAdjust.eps>
-(epstopdf)                    date: 2014-12-21 21:49:38
+(epstopdf)                    date: 2014-12-22 00:26:41
 (epstopdf)                    size: 18560 bytes
 (epstopdf)             Output file: <../GNU/ComparatorAdjust-eps-converted-to.p
 df>
-(epstopdf)                    date: 2014-12-21 21:49:52
+(epstopdf)                    date: 2014-12-22 00:26:55
 (epstopdf)                    size: 3675 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/ComparatorAdjust-eps
 -converted-to.pdf ../GNU/ComparatorAdjust.eps>
@@ -4890,10 +4890,10 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 730.
  [80 <../GNU/Mega168cap_opt-eps-converted-to.pdf>] (../GNU/Mega168cal.tex
 Package epstopdf Info: Source file: <../GNU/Mega168cal.eps>
-(epstopdf)                    date: 2014-12-21 21:49:38
+(epstopdf)                    date: 2014-12-22 00:26:41
 (epstopdf)                    size: 22367 bytes
 (epstopdf)             Output file: <../GNU/Mega168cal-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 21:49:53
+(epstopdf)                    date: 2014-12-22 00:26:55
 (epstopdf)                    size: 6273 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/Mega168cal-eps-conve
 rted-to.pdf ../GNU/Mega168cal.eps>
@@ -4909,10 +4909,10 @@ ine 134.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
 ) (../GNU/Mega168Acal.tex
 Package epstopdf Info: Source file: <../GNU/Mega168Acal.eps>
-(epstopdf)                    date: 2014-12-21 21:49:38
+(epstopdf)                    date: 2014-12-22 00:26:41
 (epstopdf)                    size: 22246 bytes
 (epstopdf)             Output file: <../GNU/Mega168Acal-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 21:49:53
+(epstopdf)                    date: 2014-12-22 00:26:56
 (epstopdf)                    size: 6164 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/Mega168Acal-eps-conv
 erted-to.pdf ../GNU/Mega168Acal.eps>
@@ -4933,10 +4933,10 @@ Overfull \hbox (5.22214pt too wide) in paragraph at lines 740--753
 
 (../GNU/Mega168PAcal.tex
 Package epstopdf Info: Source file: <../GNU/Mega168PAcal.eps>
-(epstopdf)                    date: 2014-12-21 21:49:38
+(epstopdf)                    date: 2014-12-22 00:26:41
 (epstopdf)                    size: 21749 bytes
 (epstopdf)             Output file: <../GNU/Mega168PAcal-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 21:49:54
+(epstopdf)                    date: 2014-12-22 00:26:56
 (epstopdf)                    size: 6001 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/Mega168PAcal-eps-con
 verted-to.pdf ../GNU/Mega168PAcal.eps>
@@ -4978,10 +4978,10 @@ Package babel Info: Redefining spanish shorthand "?
  [81 <../GNU/ComparatorAdjust-eps-converted-to.pdf> <../GNU/Mega168cal-eps-conv
 erted-to.pdf> <../GNU/Mega168Acal-eps-converted-to.pdf>] (../GNU/Mega328cal.tex
 Package epstopdf Info: Source file: <../GNU/Mega328cal.eps>
-(epstopdf)                    date: 2014-12-21 21:49:38
+(epstopdf)                    date: 2014-12-22 00:26:41
 (epstopdf)                    size: 21868 bytes
 (epstopdf)             Output file: <../GNU/Mega328cal-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 21:49:54
+(epstopdf)                    date: 2014-12-22 00:26:57
 (epstopdf)                    size: 6190 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/Mega328cal-eps-conve
 rted-to.pdf ../GNU/Mega328cal.eps>
@@ -4997,10 +4997,10 @@ ine 126.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
 ) (../GNU/Mega328Pcal.tex
 Package epstopdf Info: Source file: <../GNU/Mega328Pcal.eps>
-(epstopdf)                    date: 2014-12-21 21:49:38
+(epstopdf)                    date: 2014-12-22 00:26:41
 (epstopdf)                    size: 21893 bytes
 (epstopdf)             Output file: <../GNU/Mega328Pcal-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 21:49:55
+(epstopdf)                    date: 2014-12-22 00:26:57
 (epstopdf)                    size: 6217 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/Mega328Pcal-eps-conv
 erted-to.pdf ../GNU/Mega328Pcal.eps>
@@ -5021,10 +5021,10 @@ Overfull \hbox (5.22214pt too wide) in paragraph at lines 764--777
 
 (../GNU/MegaAuto.tex
 Package epstopdf Info: Source file: <../GNU/MegaAuto.eps>
-(epstopdf)                    date: 2014-12-21 21:49:38
+(epstopdf)                    date: 2014-12-22 00:26:41
 (epstopdf)                    size: 21375 bytes
 (epstopdf)             Output file: <../GNU/MegaAuto-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 21:49:55
+(epstopdf)                    date: 2014-12-22 00:26:58
 (epstopdf)                    size: 5356 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/MegaAuto-eps-convert
 ed-to.pdf ../GNU/MegaAuto.eps>
@@ -5066,10 +5066,10 @@ Package babel Info: Redefining spanish shorthand "?
  [82 <../GNU/Mega168PAcal-eps-converted-to.pdf> <../GNU/Mega328cal-eps-converte
 d-to.pdf> <../GNU/Mega328Pcal-eps-converted-to.pdf>] (../GNU/Mega1284.tex
 Package epstopdf Info: Source file: <../GNU/Mega1284.eps>
-(epstopdf)                    date: 2014-12-21 21:49:38
+(epstopdf)                    date: 2014-12-22 00:26:41
 (epstopdf)                    size: 21998 bytes
 (epstopdf)             Output file: <../GNU/Mega1284-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 21:49:55
+(epstopdf)                    date: 2014-12-22 00:26:58
 (epstopdf)                    size: 6187 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/Mega1284-eps-convert
 ed-to.pdf ../GNU/Mega1284.eps>
@@ -5126,10 +5126,10 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1.
 Package epstopdf Info: Source file: <../FIG/Inductance.eps>
-(epstopdf)                    date: 2014-12-21 21:49:39
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 27159 bytes
 (epstopdf)             Output file: <../FIG/Inductance-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 21:49:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 13197 bytes
 (epstopdf)             Command: <epstopdf --outfile=../FIG/Inductance-eps-conve
 rted-to.pdf ../FIG/Inductance.eps>
@@ -5185,10 +5185,10 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 60.
  (../GNU/induct328p.tex
 Package epstopdf Info: Source file: <../GNU/induct328p.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 26918 bytes
 (epstopdf)             Output file: <../GNU/induct328p-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 15031 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/induct328p-eps-conve
 rted-to.pdf ../GNU/induct328p.eps>
@@ -5244,10 +5244,10 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 3.
 Package epstopdf Info: Source file: <../FIG/Test2.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 49656 bytes
 (epstopdf)             Output file: <../FIG/Test2-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 19913 bytes
 (epstopdf)             Command: <epstopdf --outfile=../FIG/Test2-eps-converted-
 to.pdf ../FIG/Test2.eps>
@@ -5290,10 +5290,10 @@ Package babel Info: Redefining spanish shorthand "?
 
 ]
 Package epstopdf Info: Source file: <../FIG/Test7.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 33443 bytes
 (epstopdf)             Output file: <../FIG/Test7-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 15032 bytes
 (epstopdf)             Command: <epstopdf --outfile=../FIG/Test7-eps-converted-
 to.pdf ../FIG/Test7.eps>
@@ -5333,10 +5333,10 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 96.
  [87 <../FIG/Test2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../FIG/Test8.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 33446 bytes
 (epstopdf)             Output file: <../FIG/Test8-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 14928 bytes
 (epstopdf)             Command: <epstopdf --outfile=../FIG/Test8-eps-converted-
 to.pdf ../FIG/Test8.eps>
@@ -5418,11 +5418,11 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 209.
  [89 <../PNG/Frequency50.png>] (../GNU/SelfTref.tex
 Package epstopdf Info: Source file: <../GNU/SelfTref.eps>
-(epstopdf)                    date: 2014-12-21 21:49:38
+(epstopdf)                    date: 2014-12-22 00:26:41
 (epstopdf)                    size: 19275 bytes
 (epstopdf)             Output file: <../GNU/SelfTref-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 21:49:57
-(epstopdf)                    size: 3418 bytes
+(epstopdf)                    date: 2014-12-22 00:26:59
+(epstopdf)                    size: 3410 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/SelfTref-eps-convert
 ed-to.pdf ../GNU/SelfTref.eps>
 (epstopdf)             \includegraphics on input line 134.
@@ -5436,10 +5436,10 @@ e 134.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
 ) (../GNU/SelfTMitL.tex
 Package epstopdf Info: Source file: <../GNU/SelfTMitL.eps>
-(epstopdf)                    date: 2014-12-21 21:49:38
+(epstopdf)                    date: 2014-12-22 00:26:41
 (epstopdf)                    size: 19851 bytes
 (epstopdf)             Output file: <../GNU/SelfTMitL-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 21:49:57
+(epstopdf)                    date: 2014-12-22 00:26:59
 (epstopdf)                    size: 4575 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/SelfTMitL-eps-conver
 ted-to.pdf ../GNU/SelfTMitL.eps>
@@ -5455,10 +5455,10 @@ ne 136.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
 ) (../GNU/SelfTMitH.tex
 Package epstopdf Info: Source file: <../GNU/SelfTMitH.eps>
-(epstopdf)                    date: 2014-12-21 21:49:38
+(epstopdf)                    date: 2014-12-22 00:26:41
 (epstopdf)                    size: 19851 bytes
 (epstopdf)             Output file: <../GNU/SelfTMitH-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 21:49:58
+(epstopdf)                    date: 2014-12-22 00:26:59
 (epstopdf)                    size: 4625 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/SelfTMitH-eps-conver
 ted-to.pdf ../GNU/SelfTMitH.eps>
@@ -5503,10 +5503,10 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 235.
 [90 <../GNU/SelfTref-eps-converted-to.pdf>] (../GNU/SelfTbottomH.tex
 Package epstopdf Info: Source file: <../GNU/SelfTbottomH.eps>
-(epstopdf)                    date: 2014-12-21 21:49:38
+(epstopdf)                    date: 2014-12-22 00:26:41
 (epstopdf)                    size: 19857 bytes
 (epstopdf)             Output file: <../GNU/SelfTbottomH-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 21:49:58
+(epstopdf)                    date: 2014-12-22 00:27:00
 (epstopdf)                    size: 4480 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/SelfTbottomH-eps-con
 verted-to.pdf ../GNU/SelfTbottomH.eps>
@@ -5522,10 +5522,10 @@ Package pdftex.def Info: ../GNU/SelfTbottomH-eps-converted-to.pdf used on input
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
 ) (../GNU/SelfTtopH.tex
 Package epstopdf Info: Source file: <../GNU/SelfTtopH.eps>
-(epstopdf)                    date: 2014-12-21 21:49:38
+(epstopdf)                    date: 2014-12-22 00:26:41
 (epstopdf)                    size: 19828 bytes
 (epstopdf)             Output file: <../GNU/SelfTtopH-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 21:49:58
+(epstopdf)                    date: 2014-12-22 00:27:00
 (epstopdf)                    size: 4468 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/SelfTtopH-eps-conver
 ted-to.pdf ../GNU/SelfTtopH.eps>
@@ -5546,10 +5546,10 @@ Overfull \hbox (5.22214pt too wide) in paragraph at lines 237--250
 
 (../GNU/SelfTRiLo.tex
 Package epstopdf Info: Source file: <../GNU/SelfTRiLo.eps>
-(epstopdf)                    date: 2014-12-21 21:49:38
+(epstopdf)                    date: 2014-12-22 00:26:41
 (epstopdf)                    size: 20241 bytes
 (epstopdf)             Output file: <../GNU/SelfTRiLo-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 21:49:59
+(epstopdf)                    date: 2014-12-22 00:27:01
 (epstopdf)                    size: 4837 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/SelfTRiLo-eps-conver
 ted-to.pdf ../GNU/SelfTRiLo.eps>
@@ -5565,10 +5565,10 @@ ne 142.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
 ) (../GNU/SelfTRiHi.tex
 Package epstopdf Info: Source file: <../GNU/SelfTRiHi.eps>
-(epstopdf)                    date: 2014-12-21 21:49:38
+(epstopdf)                    date: 2014-12-22 00:26:41
 (epstopdf)                    size: 19849 bytes
 (epstopdf)             Output file: <../GNU/SelfTRiHi-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 21:49:59
+(epstopdf)                    date: 2014-12-22 00:27:01
 (epstopdf)                    size: 4761 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/SelfTRiHi-eps-conver
 ted-to.pdf ../GNU/SelfTRiHi.eps>
@@ -5589,10 +5589,10 @@ Overfull \hbox (5.22214pt too wide) in paragraph at lines 254--267
 
 (../GNU/SelfTcap0.tex
 Package epstopdf Info: Source file: <../GNU/SelfTcap0.eps>
-(epstopdf)                    date: 2014-12-21 21:49:38
+(epstopdf)                    date: 2014-12-22 00:26:41
 (epstopdf)                    size: 19975 bytes
 (epstopdf)             Output file: <../GNU/SelfTcap0-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 21:50:00
+(epstopdf)                    date: 2014-12-22 00:27:02
 (epstopdf)                    size: 4649 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/SelfTcap0-eps-conver
 ted-to.pdf ../GNU/SelfTcap0.eps>
@@ -5637,10 +5637,10 @@ d-to.pdf> <../GNU/SelfTRiLo-eps-converted-to.pdf> <../GNU/SelfTRiHi-eps-convert
 ed-to.pdf>]
 (../GNU/SelfTrefKorr.tex
 Package epstopdf Info: Source file: <../GNU/SelfTrefKorr.eps>
-(epstopdf)                    date: 2014-12-21 21:49:38
+(epstopdf)                    date: 2014-12-22 00:26:41
 (epstopdf)                    size: 19721 bytes
 (epstopdf)             Output file: <../GNU/SelfTrefKorr-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 21:50:00
+(epstopdf)                    date: 2014-12-22 00:27:02
 (epstopdf)                    size: 3753 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/SelfTrefKorr-eps-con
 verted-to.pdf ../GNU/SelfTrefKorr.eps>
@@ -5656,10 +5656,10 @@ Package pdftex.def Info: ../GNU/SelfTrefKorr-eps-converted-to.pdf used on input
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
 ) (../GNU/SelfTrefDiff.tex
 Package epstopdf Info: Source file: <../GNU/SelfTrefDiff.eps>
-(epstopdf)                    date: 2014-12-21 21:49:38
+(epstopdf)                    date: 2014-12-22 00:26:41
 (epstopdf)                    size: 19859 bytes
 (epstopdf)             Output file: <../GNU/SelfTrefDiff-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 21:50:01
+(epstopdf)                    date: 2014-12-22 00:27:03
 (epstopdf)                    size: 3768 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/SelfTrefDiff-eps-con
 verted-to.pdf ../GNU/SelfTrefDiff.eps>
@@ -5722,11 +5722,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--18
 
 (../GNU/frequency-ppm.tex
 Package epstopdf Info: Source file: <../GNU/frequency-ppm.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 19441 bytes
 (epstopdf)             Output file: <../GNU/frequency-ppm-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 3909 bytes
 (epstopdf)             Command: <epstopdf --outfile=../GNU/frequency-ppm-eps-co
 nverted-to.pdf ../GNU/frequency-ppm.eps>
@@ -5770,10 +5770,10 @@ Package babel Info: Redefining spanish shorthand "?
 
  <../GNU/frequency-ppm-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../FIG/GPS_UP501.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 32904 bytes
 (epstopdf)             Output file: <../FIG/GPS_UP501-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 11043 bytes
 (epstopdf)             Command: <epstopdf --outfile=../FIG/GPS_UP501-eps-conver
 ted-to.pdf ../FIG/GPS_UP501.eps>
@@ -5788,10 +5788,10 @@ Package pdftex.def Info: ../FIG/GPS_UP501-eps-converted-to.pdf used on input li
 ne 68.
 (pdftex.def)             Requested size: 241.84842pt x 133.69846pt.
 Package epstopdf Info: Source file: <../FIG/GPS_GNS701.eps>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 31939 bytes
 (epstopdf)             Output file: <../FIG/GPS_GNS701-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-21 20:35:56
+(epstopdf)                    date: 2014-12-22 00:24:39
 (epstopdf)                    size: 10544 bytes
 (epstopdf)             Command: <epstopdf --outfile=../FIG/GPS_GNS701-eps-conve
 rted-to.pdf ../FIG/GPS_GNS701.eps>
@@ -6141,7 +6141,7 @@ cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on ttester.pdf (101 pages, 1492037 bytes).
+Output written on ttester.pdf (101 pages, 1492083 bytes).
 PDF statistics:
  1727 PDF objects out of 1728 (max. 8388607)
  1409 compressed objects within 15 object streams
