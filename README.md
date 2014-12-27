@@ -3,15 +3,20 @@ TransistorTester
 
 Ficheros fuentes en inglés del documento, preparados para traducir.
 
-Revisión de la traducción y director de proyecto: Iván Juanes Prieto
-Revisión del repositorio y compilación del texto: Félix J. Marcelo Wirnitzer
-Revisión técnica: Armando
+Revisión de la traducción y director de proyecto:
+    * Iván Juanes Prieto
+
+Revisión del repositorio y compilación del texto:
+    * Félix J. Marcelo Wirnitzer
+
+Revisión técnica:
+    * Armando Sánchez Peña
 
 Traductores:
     * Iván Juanes Prieto
     * Félix J. Marcelo Wirnitzer
-    * Armando Sánchez Peña
     * Víctor Ruiz
+
 
 Etapas:
     * 00-preface.tex [Víctor, en proceso]
