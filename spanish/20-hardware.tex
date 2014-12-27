@@ -137,41 +137,38 @@ extensión del diodo zener o el puerto de test de TP1. El  puerto de test TP3 se
 
 \subsection{Medición de frecuencias}
 
-Para usar
-
-For using the with the dialog selectable frequency measurement is a little hardware extension
-necessary. The input pin PD4 (T0/PCINT20) of the ATmega is used for the frequency measurement.
-The same pin is also used for the connection of the LCD. With normal layout, the PD4 pin is connected
-to the LCD-RS signal, with the strip grid design it is connected to LCD-D4.
-For both signals the PD4 pin can be switched to input as long as no output to the LCD is
-required. The LCD respect the input value only, if the LCD-E signal is switched to GND.
-For driving the input pin from external clock source at least one serial resistor of \(270\Omega\) should be used.
-Better you should use the circuit of figure~\ref{fig:FreqMes} .
-The voltage at the PD4 pin (LCD-RS or LCD-D4) should be adjusted to \(2.4V\) without the assembled ATmega
-or during frequency measurement of the ATmega, to get the best sensivity for the input frequency signal.
-The LCD should always be installed for adjusting, because the pull up resistor of the LCD change the voltage.
+Igualmente para usarlo con el diálogo seleccionable la  medición de frecuencias es una pequeña extensión de hardware
+necesaria. El ind de  entrada PD4 /T0/PCINT20) del ATmega se  usa para la medición de frecuencias. El  mismo pin se usa
+también para conectarlo a  la pantalla LCD. Con una disposición  normal, el PD4 se conecta a la  señal LCD-RS, con el
+diseño de la disposición de  rejilla de líneas. Para ambas señales el pin PD4 puede  conmutarse a la entrada todo el
+tiempo que  no se  requiera una salida  a la  LCD. La pantalla  LCD sólo  es interesante respecto  al valor  de entrada
+únicamente, si  la señal  LCD-E está conectada  a tierra.  Para controlar el  pin de entrada  desde un  reloj externo
+deberá usarsa  el menos una  resistencia en serie  de \(270\Omega\).  Es más recomendable  utilizar el circuito  de la
+figura~\ref{fig:FreqMes}. La  tensión del  pin PD4  (LCD-RS or  LCD-D4) se debería  ajustar a  \(2.4V\) sin  el ATmega
+ensamblado o  durante la medicion  de la frecuencia  del ATmega, para  obtener la mejor  sensibilidad para la  señal de
+frecuencia de entrada. La pantalla LCD siempre debería estar instalado para ajustarlo, porque la resistencia pull up de
+la LCD cambia la tensión.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=7cm]{../FIG/Frequency_addon.eps}
-\caption{Extension for measurement of frequency}
+\caption{Extensión para la medición de la frecuencia}
 \label{fig:FreqMes}
 \end{figure}
 
-\subsection{Using of a rotary pulse encoder}
+\subsection{Utilización de un codificador de pulsos rotatorio}
 
-For easier control of the menu function for the ATmega328 you can expand the circuit 
-by a rotary pulse encoder with a push button.
-The circuit~\ref{fig:RotExt} shows a standard expansion for a normal character LCD.
-All signals for the connection of the rotary pulse encoder are available at the plug connector
-for the LCD. For this reason the expansion can also be easy upgraded for many existing testers.
-In many cases the graphical LCD is assembled on a adapter board with some connection pins
-of the character LCD. Also in this cases the upgrade with a rotary encoder is not very difficult to do.
+Para  controlar mas  fácilmente la  función del  menú  para el  ATmega328 podemos  expandir el  circuito mediante  un
+codificador de pulsos  rotatorio con un botón  pulsador. El circuito~\ref{fig:RotExt} muestra  una expansión estándar
+para una pantalla  de caracteres normal LCD.  Todas las señales para  laa conexión de codificador  de pulsos rotatorio
+están disponibles en el conector  de la LCD. Por esta razón la expansión se  puede actualizar fácilmente para muchos
+testers existentes. En muchos casos la LCD gráfica se ensambla sobre un adaptador con algunas conexiones de la pantalla
+LCD de caracteres. También en estos casos la actualización con un codificador rotatorio no presenta dificultad.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=6cm]{../FIG/rotary_extension.eps}
-\caption{Expansion with a rotary pulse encoder}
+\caption{Expansión con un codificador de pulsos rotatorio}
 \label{fig:RotExt}
 \end{figure}
 
