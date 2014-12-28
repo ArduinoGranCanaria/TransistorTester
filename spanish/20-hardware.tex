@@ -172,34 +172,40 @@ LCD de caracteres. También en estos casos la actualización con un codificador 
 \label{fig:RotExt}
 \end{figure}
 
-The figure~\ref{fig:RotEnc} shows the feature of two different rotary pulse encoder.
-The version 1 has twice as much indexed positions (detents) per turn as pulses per turn.
-The version 2 has the same count of detents as pulses per turn.
-The slope of one of the two switch signals is sometimes exactly at the detent of the 
-rotary pulse encoder.
+La figura~\ref{fig:RotEnc} muestra las características de dos  codificadores de pulsos rotatorios distintos. La primera
+versión tiene  el doble  de veces  de cantidad de  posiciones indexadas  (\textit{\color{red}{detents}}) por  turno que
+pulsos por turno. La segunda  versión tiene el mismo número de posiciones indexadas que  pulsos por turno. El descenso
+de una  de las dos señales  que conmutan está a  veces exactamente en la  misma posición indexada del  codificador de
+pulsos rotatorio.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=14cm]{../FIG/rotary_encoder.eps}
-\caption{Feature of two different rotary pulse encoder}
+\caption{Características de dos  codificadores de pulsos rotatorios distintos}
 \label{fig:RotEnc}
 \end{figure}
 
-The figure~\ref{fig:RotBounce} shows a rotary pulse encoder, which has not only
-bouncing contacts, but also has a unstable state of one of the switches at the indexed
-position (detent). Every change of the state of the switches is detected by the program
-and saved in a cyclic buffer. Therefore the last three states of the switches can be checked
-after every status change.
-For every cycle of switch states a total of four sequences of state can be defined for every direction of rotation.
-If there is only one indexed position (detent) for every cycle of switch states, only
-one of the state sequence pair must be monitored (WITH\_ROTARY\_SWITCH=2 or 3) for correct counting.
-If there are two indexed positions for every cycle of the switch states, as shown in figure~\ref{fig:RotBounce},
-you must monitor two pairs of switch state sequences (WITH\_ROTARY\_SWITCH=1).
-You can choise any resolution for the WITH\_ROTARY\_SWITCH for a rotary pulse encoder without
-indexed positions. A value of 2 or 3 selects the lowest resolution, 1 selects a middle resolution
-and 5 selects the highest resulution.
-A oscillation of the selection (counter up, counter down) can be avoided with the type of monitoring,
-but sometimes a count can be missed with a bad placement of the indexed position.
+La figura~\ref{fig:RotBounce}  muesta un codificador de  pulsos rotatorio, que  no sólo tiene contactos  rígidos, pero
+también tiene un  estado inestable de uno de los  interruptores en la posición indexada. Cada  cambiodel estado de los
+interruptores lo detecta el programa  guardado en un \textit{buffer} cíclico. Por eso los  tres últimos estados de los
+interruptores se pueden comprobar después de cada cambio de estado.
+
+Para cada  ciclo de  estados conmutados  se pueden  definir un total  de cuatro  secuencias para  cada dirección  de la
+rotación. Si sólo hay una posición indexada para cada ciclo de estados conmutados, sólo uno del par de secuencias de
+estados  debe  ser vigilado  (\texttt{WITH\_ROTARY\_SWITCH=2}  ó  \texttt{3}) para  una  cuenta  correcta. Si  hay  dos
+posiciones indexadas para cada  ciclo de estados conmutados, como se muestra en  la figura~\ref{fig:RotBounce}, se deben
+vigilar  los pares  de secuencias  de estados  conmutados (\texttt{WITH\_ROTARY\_SWITCH=1}).  Se puede  elegir cualquier
+resolución para (\texttt{WITH\_ROTARY\_SWITCH}
+
+
+For every cycle of switch states  a total of four sequences of state can be defined  for every direction of rotation. If
+there is only one indexed  position (detent) for every cycle of switch states, only one  of the state sequence pair must
+be monitored (WITH\_ROTARY\_SWITCH=2 or 3)  for correct counting. If there are two indexed  positions for every cycle of
+the  switch states,  as shown  in  figure~\ref{fig:RotBounce}, you  must monitor  two  pairs of  switch state  sequences
+(WITH\_ROTARY\_SWITCH=1). You can choise any resolution for  the WITH\_ROTARY\_SWITCH for a rotary pulse encoder without
+indexed positions.  A value of 2  or 3 selects the  lowest resolution, 1 selects  a middle resolution and  5 selects the
+highest  resulution. A  oscillation  of the  selection  (counter up,  counter down)  can  be avoided  with  the type  of
+monitoring, but sometimes a count can be missed with a bad placement of the indexed position.
 
 \begin{figure}[H]
 \centering
