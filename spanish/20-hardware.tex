@@ -8,7 +8,7 @@ El circuito del  TransistorTester que aparece en  la figura \ref{fig:ttester} se
 están marcados con el color verde, las partes opcionales están marcadas con el color rojo                            .
 
 Algunos  cambios se  han llevado  a cabo  porque el  interruptor electrónico  de corriente  causa problemas  en algunas
-implementaciones. Por  tanto la resistencia  R7 se ha  reducido a un  valor de \(3.3k\Omega\).  El condensador C2  se ha
+implementaciones. Por  tanto la resistencia  R7 se ha  reducido a un  valor de \(3,3k\Omega\).  El condensador C2  se ha
 reducido a 10nF y R8 se  ha movido, de manera que la salida PD6 no intente  descargar el condensador C2 directamente. Se
 han añadido  condensadores de  desacoplado y deben  colocarse cerca  de la fuente  de energía del  ATmega y  cerca del
 regulador de voltaje.
@@ -27,7 +27,7 @@ ATmega. Para prevenir  una medición más lenta de la  necesaria, el valor de es
 vistazo a las opciones del fichero Makefile en el capítulo sobre la configuración \ref{sec:config}.
 
 Por Internet circulan algunas versiones distintas de combinaciones de resistencias R11 / R12. He adaptado mi software al
-original de Markus F. \cite{Frejek} con resistencias de \(10k\Omega\) y \(3.3k\Omega\).
+original de Markus F. \cite{Frejek} con resistencias de \(10k\Omega\) y \(3,3k\Omega\).
 
 La referencia  de tensión de  precisión adicional  de 2.5V en  el pin PC4  (ADC4) se  puede utilizar para  comprobar y
 calibrar la tensión VCC, aunque no es obligatoria.  También se puede utilizar un LM4040AIZ2.5 (0.1\%), un LT1004CZ-2.5
@@ -214,34 +214,31 @@ valer 4 para una manejo correcto del programa.
 
 \subsection{Conexión de una pantalla gráfica}
 
-Agradezco a Wolfgang  Sch. por su trabajo en  el soporte de una versión  china con el controlador ST7565.  Por ahora se
-puede conectar  una pantalla  gráfica LCD de  128x64 píxeles  con un  controlador ST7565. Ya  que este  controlador se
+Quiero agradecer a Wolfgang Sch. por su trabajo en el soporte de una versión china con el controlador ST7565. Por ahora
+se puede conectar  una pantalla gráfica LCD  de 128x64 píxeles con un  controlador ST7565. Ya que  este controlador se
 conecta a un interfaz  serie, sólo son necesarias cuatro líneas  para la señal. En otro caso se  pueden dos pines del
 puerto D del ATmega. El procesador del ATmega debería  tener al menos 32K de memoria \textit{flash} para poder soportar
-una pantalla gráfica. El controlador ST7565 funciona con una tensión operativa de 3,3V.z
-
-
-Many thanks  to Wolfgang Sch.  for his work to  support a chinese  version with ST7565  controller. By now you  can also
-connect a graphical 128x64 pixel LCD with a ST7565  controller. Because the ST7565 controller is connected with a serial
-interface, only  four signal  lines are  required. Two  port D  pins of  the ATmega  can be  used otherwise.  The ATmega
-processor should have at least 32k flash memory for the support of a graphical display. The ST7565 controller works with
-a operating voltage of  3.3V. Therefore a additional 3.3V  voltage regulator is required. The data  sheet of the ST7565
-controller  does not  allow  the direct  connection  of input  pins  to 5V  signal  level. So  the  extension of  figure
-\ref{fig:ST7565lcd} uses a additional 74HC4050 CMOS device for the conversion of the voltage level.
+una pantalla  gráfica. El controlador ST7565  funciona con una  tensión operativa de  3,3V. Por tanto, se  requiere un
+regulador de tensión  de 3,3V. La hoja de especificaciones  del controlador ST7565 no permite la  conexión directa con
+pines de entrada de nivel de señal de 5V. Por  eso la extensión de la figura \ref{fig:ST7565lcd} usa una CMOS 74HC4050
+adicional para la conversión del nivel de tensión.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=14cm]{../FIG/ST7565lcd.eps}
-\caption{Connection of a  graphical display}
+\caption{Conexión con una pantalla gráfica}
 \label{fig:ST7565lcd}
 \end{figure}
 
-For connection to the ATmega644 series of processors the pins PB2 to PB5 instead of PD0 to PD3 are used. The exchange of
-a text display  to a graphical display is  possible with a adapter  printed board because all required  data signals and
-power signals are available at the LCD connector.
+Para la conexión a la serie  ATmega644 de procesadores se usan los pines entre el PB2 al PB5  en lugar de PD0 a PD3. El
+cambio de  una pantalla de  texto por una  gráfica es posible con  un circuito impreso  del adaptador porque  todas las
+señales de datos y de corriente requieren están disponibles en el conector del LCD.
 
+\section{Indicaciones para la construcción del TransistorTester}
 
-\section{Hints for building the TransistorTester}
+Toda pantalla  LCD con una  resolución mínima de  2x16 caracteres  y un controlador  compatible con HD44780  se pueden
+utilizar con el TransistorTester. Es altamente recomendable respetar la corriente necesaria para la iluminación,
+
 
 Every  LCD-display  with  at  least  2x16  character  and   a  HD44780  compatible  controller  can  be  used  with  the
 TransistorTester. You should respect the current needed for illumination, some LCD need lower current than others. I had
