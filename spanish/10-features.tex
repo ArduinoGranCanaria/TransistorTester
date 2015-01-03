@@ -14,7 +14,7 @@
 \item Se pueden identificar los transistores Darlington por el umbral de voltaje y el alto factor de amplificación.
 \item Detección del diodo de protección en los transistores bipolares y MOSFETs.
 \item En los MOSFETs, medida del umbral de voltaje de la Puerta y del valor de capacidad de la puerta.
-\item Up to two Resistors are measured and shown with symbols
+\item Se miden y muestran hasta dos resistencias a la vez con sus símbolos
 \setlength{\unitlength}{0.1mm}
 \linethickness{0.4mm}
 \begin{picture}(60,30)
@@ -25,12 +25,13 @@
 \put(50,5){\line(0,1){20}}
 \put(50,15){\line(1,0){10}}
 \end{picture}
-and values with up to four decimal digits in the right dimension.
-All symbols are surrounded by the probe numbers of the Tester (1-3).
-So Potentiometer can also be measured. If the Potentiometer is adjusted to one of its ends,
-the Tester cannot differ the middle pin and the end pin.
-\item Resolution of resistor measurement is now up to \(0.01\Omega\), values up to \(50M\Omega\) are detected.
-\item One capacitor can be detected and measured. It is shown with symbol
+% and values with up to four decimal digits in the right dimension.
+y valores con hasta cuatro dígitos decimales hacia la derecha.
+Todos los símbolos están rodeados por los números de prueba del Tester (1-3)
+De esta manera, puede medirse también un potenciómetro. Si el potenciómetro está ajustado a uno de sus extremos, 
+el Tester no podrá distinguir entre el pin intermedio y el pin final.
+\item La resolución para la medida de resistencias es ahora de hasta \(0.01\Omega\), y se detectan valores de hasta \(50M\Omega\)
+\item Se puede detectar y medir un sólo acumulador cada vez. Se muestra con el símbolo
 \setlength{\unitlength}{0.1mm}
 \begin{picture}(60,30)
 \linethickness{0.4mm}
@@ -41,8 +42,9 @@ the Tester cannot differ the middle pin and the end pin.
 \put(34,0){\line(0,1){30}}
 \put(38,0){\line(0,1){30}}
 \end{picture}
-and value with up to four decimal digits in the right dimension. 
-The value can be from \(25 pF\) (8MHz clock, \(50 pF\) @1MHz clock) to \(100 mF\). The resolution can be up to \(1 pF\) (@8MHz clock].
+y valores con hasta cuatro dígitos decimales hacia la derecha.
+El valor puede ser de entre \(25 pF\) (reloj de 8MHz, \(50 pF\) con reloj @1MHz) hasta \(100 mF\). La resolución puede ser de hasta \(1 pF\) (reloj @8MHz clock).
+\item Para condensadores con un valor de capacidad por encima de \(0.18\mu F\) se mide
 \item For capacitors with a capacity value above \(0.18 \mu F\) the Equivalent Serial Resistance (ESR) is measured 
 with a resolution of \(0.01 \Omega\) and is shown with two significant decimal digits.
 This feature is only avaiable for ATmega with at least 16K flash memory (ATmega168 or ATmega328).
