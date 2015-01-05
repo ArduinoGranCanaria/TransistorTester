@@ -237,18 +237,18 @@ señales de datos y de corriente requieren están disponibles en el conector del
 \section{Indicaciones para la construcción del TransistorTester}
 
 Toda pantalla  LCD con una  resolución mínima de  2x16 caracteres  y un controlador  compatible con HD44780  se pueden
-utilizar con el TransistorTester. Es altamente recomendable respetar la corriente necesaria para la iluminación,
+utilizar  con el  TransistorTester. Es  altamente recomendable  respetar la  corriente necesaria  para la  iluminación,
+algunas  pantallas LCD  necesitan  menos corriente  que otras.  He  probado con  pantallas  de tipo  OLED, pero  provoca
+interferencias con las mediciones del ATmega y \textbf{no} son recomendables. También la carga de caracteres especiales
+para mostrar el símbolo de la resistencia crea problemas con la pantalla OLED.
 
+Las  resistencias de  R1 a  R6 son  críticas para  las mediciones  y las  de \(680\Omega\)  y \(470k\Omega\)  deben ser
+resistencias para usarse  en mediciones (con una  toleracia de del 0,1\%)  para conseguir una precisión  lo más exacta
+posible. Se debería utilizar un zócalo de precisión para el microcontrolador ATmega con tal de habilitar el reemplazo
+del microcontrolador.  Se pueden usar los  microcontroladores ATmega8, ATmega168  y ATmega328. Si se  quieren aprovechar
+todas las características se recomienda el ATmega328.
 
-Every  LCD-display  with  at  least  2x16  character  and   a  HD44780  compatible  controller  can  be  used  with  the
-TransistorTester. You should respect the current needed for illumination, some LCD need lower current than others. I had
-tried  OLED type  displays,  but  this type  cause  interference with  measurements  of the  ATmega  and  are {\bf  not}
-recommended. Also loading of special characters for displaying the resistor symbol has caused problems with the OLED.
-
-The resistors  R1 to  R6 are critical  for measurements and  this \(680\Omega\)  and \(470k\Omega\) resistors  should be
-measurement type  resistors (tolerance of 0.1\%)  to get the  full accuracy. You should  use a precision socket  for the
-ATmega microcontroller  to enable  the replacement of  the microcontroller. The  microcontroller ATmega8,  ATmega168 and
-ATmega328 can be used. Recommended is a ATmega328, if you wish to use all features.
+De cualquier forma, se deberían ensamblar todos los componentes del circuito impreso sin en el microcontrolador. 
 
 Anyway  you should  assemble all  parts to  printed board  without the  microcontroller. A  up-to-date low  voltage drop
 regulator like  MCP1702-5002 is recommended as  IC2, because it  need only \(2\mu A\)  of standby current and  can still
