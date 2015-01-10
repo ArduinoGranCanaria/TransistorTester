@@ -248,33 +248,35 @@ posible. Se debería utilizar un zócalo de precisión para el microcontrolador 
 del microcontrolador.  Se pueden usar los  microcontroladores ATmega8, ATmega168  y ATmega328. Si se  quieren aprovechar
 todas las características se recomienda el ATmega328.
 
-De cualquier forma, se deberían ensamblar todos los componentes del circuito impreso sin en el microcontrolador. 
+De cualquier  forma, se deberían ensamblar  todos los componentes del  circuito impreso sin en  el microcontrolador. Se
+recomienda un regulador de caída de tensión moderno como  el MCP1702-5002 como IC2, porque sólo necesita 2\(\mu\)A de
+corriente en modo de espera y aún puede proporcionar 5V, si nuestra tensión de entrada es de 5,4V. ¡No obstante, este
+componente no es compatible con el conocido 78L05 que viene en un encapsulado TO92!
 
-Anyway  you should  assemble all  parts to  printed board  without the  microcontroller. A  up-to-date low  voltage drop
-regulator like  MCP1702-5002 is recommended as  IC2, because it  need only \(2\mu A\)  of standby current and  can still
-deliver 5V, if your input voltage is only 5.4V. But this part is not pin compatible to well known 78L05 with TO92 body!
+Tras comprobar que todas los componentes necesarios están  colocados en su posición correcta, primeramente se debería
+conectar la  batería o  fuente de  alimentación a  la placa impresa  sin la  pantalla LCD  y el  microcontrolador. Sea
+debería comprobar que  la tensión en los pines de  alimentación del microcontrolador y de la  pantalla LCD durante el
+tiempo en que la tecla de chequeo permanece presionada. Si  la tensión tiene el valor y la polaridad correctos, se debe
+desconectar la alimentación y  ensamblar el microcontrolador en la posición correcta. Hay  que asegurarse de que todos
+los pines del  microcontrolador están bien colocados  en los agujeros del  zócalo. Ahora ya podremos  conectar la LCD.
+Igualmente se comprobará si los pines de alimentación de la  LCD están correctamente conectados a tierra (GND) y a la
+alimentación (Vcc) de la placa.
 
-After checking, that all needed parts are at the correct  place, you should first connect the battery or power supply to
-the printed  board without  LCD-display and  microcontroller. You  should check  the voltage  at the  power pins  of the
-microcontroller and LCD-display  terminal during the Test key  is pressed. The voltage should disappear,  if you release
-the  Test key.  If the  voltage  had correct  polarity  and value,  you should  disconnect  the power  and assemble  the
-microcontroller with  correct alignment. Be  careful and make  shure, that  all pins of  the microcontroller are  in the
-socket holes. Now you can also  connect the LCD. Check if power pins of the LCD has the  right connection to GND and VCC
-of your board.
+Si ya  estamos seguros de  que está  todo en orden,  volvemos a conectar  la alimentación.  Si ya hemos  programado el
+ATmega, podemos pulsar la tecla de chequeo. Al hacerlo,  la retroiluminación de la LCD debería encenderse. Si soltamos
+la tecla, el LED se  iluminará más débilmente. Hay que observar que el  software del microcontrolador debe compilarse
+para el tipo de procesador correcto. ¡Un programa para el ATmega8 no funcionará en el ATmega168!
 
-If you are shure that everything is all right, reconnect the power. 
-If you have already programmed the ATmega, you can press the Test button.
-By pressing the Test key, the background light of the LCD should switch on.
-If you release the Test button, the LED should illuminate weak.
-Notice, that the software for the microcontroller must be compiled for the
-correct processor type. A program for the ATmega8 does not run on a ATmega168!
 
-\section{Changeover for tester versions designed by Markus F.}
+\section{Modificaciones para versiones de tester diseñados por Markus F.}
 \label{sec:change_markus}
 \begin{description}
 
-\item[Voltage control]
-If the problem exist, the tester will shut down immediately with every switch on.
+\item[Control de tensión]
+Si el problema existe, el tester se apagará inmediatamente con todos los interruptores activados.
+
+
+
 With imy suggested setting of the fuses (Makefile) the voltage control of the different
 ATmega versions is switched to 4V (brown out level).
 This may be the reason why the tester makes trouble with the power on sequence.
