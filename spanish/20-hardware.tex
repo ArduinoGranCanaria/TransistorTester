@@ -275,22 +275,22 @@ para el tipo de procesador correcto. ¡Un programa para el ATmega8 no funcionar�
 \item[Control de tensión]
 Si el problema existe, el tester se apagará inmediatamente con todos los interruptores activados.
 
+Con la configuración  de los fusibles que recomiendo (Makefile)  el control de tensión de las  diferentes versiones de
+ATmega se puede  cambiar a 4V (nivel de apagado).  Ésta puede ser la razón  de por qué el tester da  problemas con la
+corriente en la secuencia. El pin PD6 intenta conmutar el  condensador C2 de 100nF al nivel de Vcc provocando una caída
+de tensión de Vcc (5V). El  condensador C2 se puede reducir a menos de 10nF sin  problemas. Si es posible, la conexión
+directa a PD6 debería reemplazarse por una resistencia mayor que \(220\Omega\).
 
+\item[Mejora de la corriente de un circuito]
 
-With imy suggested setting of the fuses (Makefile) the voltage control of the different
-ATmega versions is switched to 4V (brown out level).
-This may be the reason why the tester makes trouble with the power on sequence.
-The Pin PD6 tries to switch the 100nF capacitor C2 to VCC level causing a voltage
-breakdown of the VCC voltage (5V).
-The capacitor C2 can be reduced to \textless 10nF without problems.
-If possible, the direct connection of PD6 should be replaced by a resistor \textgreater \(220 \Omega\).
-\item[Improvement of power on circuit]
-Often this problem is the reason, if the tester starts with the button hold pressed, but switch off
-directly by releasing. The problem is enforced by a high current background light for the LCD.
-The resistor R7 to the base of the PNP transistor T3 was optimized with the value \(27k \Omega\) 
-too much to save power consuming.
-To improve the switching with lower battery voltage or lower current amplification factor of
-the PNP transistor T3, you should reduce the resistance to \(3.3k \Omega\).
+A menudo este problema  es la razón de que si  el tester comienza con el botón presionado  permanentemente pero que se
+apaga directamente al soltarlo.
+
+El problema está impuesto por el gran consumo de corriente de la retroiluminación de la LCD. La resistencia R7 unida a
+la base  del transistor PNP  T3 se optimizó  con valor de \(27k  \Omega\) más que  suficiente para ahorrar  consumo de
+energía. Para mejorar  la conmutación con una batería de  baja tensión o factor de amplificación  de corriente más
+bajo del transistor PNP T3, se recomienda reducir la resistencia a \(3.3k \Omega\).
+
 \item[Additional pull-up resistor at PD7]
 The missing pull-up resistor results to a switch off of the tester with the message ''Timeout''
 after a short display time.
@@ -298,6 +298,7 @@ The software is configured with the option PULLUP\_DISABLE, that all internal pu
 resistors are switched off. For that reason the voltage of pin PD7 is not definded,
 if the level is not switched by the push button or transistor T2 to GND.
 One external pull-up resistor of \(27k \Omega\) to VCC avoid this error.
+
 \item[Capacitor C1 at the AREF pin]
 Many designs use a 100nF capacitor at the AREF pin, like the design of Markus F. too.
 As long as the reference voltage of the ADC is never changed, this is a good solution.
@@ -311,6 +312,7 @@ I have not noticed any degration of measurement quality with this change.
 Even a removing of the capacitor has no significant change of measurement results.
 If you prefer to leve the capacitor unchanged, you can remove the option NO\_AREF\_CAP
 in the Makefile to activate longer wait times in the program.
+
 \item[Expanding of a 8MHz crystal]
 With some skill you can expand a 8MHz crystal to the backside of the printed board
 directly to the pins PB6 and PB7 (pin 9 and pin 10).
@@ -318,6 +320,7 @@ My own expansion was done without the both 22pF capacitors.
 This solution has operated well with all tested ATmega.
 But it is not required to use a crystal. You can still use the 8MHz RC oszillator
 by setting the fuses to get the better resolution of time constant measuring (capacity value).
+
 \item[Smoothing of the operating voltage]
 The original circuit of Markus F. shows only one 100nF capacitor to block the VCC voltage.
 This is clearly too little smoothing. You should at least use one 100nF near the ATmega power pins
@@ -327,6 +330,7 @@ Additional \(10\mu F\) capacitors (electrolytic or ceramic) at the input and
 output of the voltage regulator can stable the voltage level.
 Ceramic \(10\mu F\) capacitos with SMD mounting form are easier to use for backfitting
 and have usually a lower ESR value. 
+
 \item[Selection of the ATmega processor]
 The using of the base function of the tester is still possible with a ATmega8.
 The flash memory of that device is used near 100\% .
@@ -341,6 +345,7 @@ Measurement of inductors with resistance  below \(2100 \Omega\).\\
 Measurement of ESR value of capacitors with value of above  \(0.18 \mu F\).\\
 The resolution of resistor measurement below \(10 \Omega\) is \(0.01 \Omega\).\\
 Using of pin PC4 as serial output.\\
+
 \item[Missing precision voltage reference]
 Usually the software should detect the missing voltage reference with the unconnected pin PC4.
 In this case no VCC=x.xV message should appear in row 2 of the LCD on power on.
