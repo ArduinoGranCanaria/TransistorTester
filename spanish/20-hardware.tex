@@ -105,7 +105,7 @@ completa. Además, los condensadores deben descargarse antes de proceder a la me
   \label{fig:relay_addon}
 \end{figure}
 
-\subsection{Medición de tensión de un diodo zener por encima de 4 Volt}
+\subsection{Medición de tensión de un diodo zener por encima de 4V}
 
 Si no se requiere la salida  serie de texto, el pin PC3 del ATmega se puede usar  como entrada analógica para medir una
 tensión externa. La tensión puede  llegar hasta 50V con un divisor de resistencias 10:1 opcional  y se puede usar para
@@ -118,7 +118,7 @@ esta expansión durante el tiempo en que se presiona el botón.
 \begin{figure}[H]
 \centering
 \includegraphics[width=12cm]{../FIG/zener_exp.eps}
-\caption{Expansion for measuring of break down voltage of Zener diodes}
+\caption{Expansión para medir la ruptura de tensión de diodos Zener}
 \label{fig:zener}
 \end{figure}
 
@@ -291,27 +291,14 @@ la base  del transistor PNP  T3 se optimizó  con valor de \(27k  \Omega\) más 
 energía. Para mejorar  la conmutación con una batería de  baja tensión o factor de amplificación  de corriente más
 bajo del transistor PNP T3, se recomienda reducir la resistencia a \(3.3k \Omega\).
 
-\item[Additional pull-up resistor at PD7]
-The missing pull-up resistor results to a switch off of the tester with the message ''Timeout''
-after a short display time.
-The software is configured with the option PULLUP\_DISABLE, that all internal pull-up
-resistors are switched off. For that reason the voltage of pin PD7 is not definded,
-if the level is not switched by the push button or transistor T2 to GND.
-One external pull-up resistor of \(27k \Omega\) to VCC avoid this error.
+\item[Resistencia pull-up adicional en PD7]
+La resistencia pull-up ausente da lugar a una desconexión del tester con el mensaje ``Timeout'' después de un breve intervalo en pantalla. El software se configura con la opción PULLUP\_DISABLE, haciendo que todas las resistencias internas pull-up se desconecten. Por esa razón la tensión del pin PD7 no está definida, si el nivel no está conmutado bien sea presionando el botón o bien con el transitor T2 a tierra. Para prevenir este fallo basta con una resistencia externa pull-up de \(27k \Omega\) conectado a Vcc.
 
-\item[Capacitor C1 at the AREF pin]
-Many designs use a 100nF capacitor at the AREF pin, like the design of Markus F. too.
-As long as the reference voltage of the ADC is never changed, this is a good solution.
-The software of the TransistorTester for the ATmega168/328 uses a automatic selection
-of the internal 1.1 V reference voltage of the ADC, if the input voltage is below 1V.
-With this solution a better resolution of the ADC can be reached for little input voltages.
-Unfortunately the switching from 5V to 1.1V reference is very slowly. A additional
-wait time of 10ms must be respected for this reason.
-With changing the capacity value to 1nF this wait time can be reduced significant.
-I have not noticed any degration of measurement quality with this change.
-Even a removing of the capacitor has no significant change of measurement results.
-If you prefer to leve the capacitor unchanged, you can remove the option NO\_AREF\_CAP
-in the Makefile to activate longer wait times in the program.
+\item[Condensador C1 en el pin AREF]
+Muchos diseños usan un condensador de 100nF en el pin AREF pin, igual que el diseño de Markus F. Mientras la tensión de refernecia no se cambie nunca, ésta será una buena solución. el software del TransistorTester para el ATmega168/328 usa una  selección automatica de la tensión intern de referencia a 1,1V de ADC, si la entrada de tensión es menor que 1V. Con esta solución se alcanza una medición más refinada de la ADC para pequeñas entradas de valores. Desafortunadamente el cambio de  5V a 1,1V de referencia es demasiado lento. Por eso debe respetarse un tiempo de espera adicional de 10ms. Con el cambio del valor del condensador a 1nF se reduce notablemente el tiempo de espera. No se aprecia ninguna devaluación de la calidad de la medida con este cambio. Incluso retirando el condensador tampoco se observa un cambio significativo  del resultado de las medidas. Si se prefiere dejar sin modificar el condensador, se puede eliminar la opción  NO\_AREF\_CAP en el fichero  Makefile para activar tiempos de espera más largos en el programa.
+
+\item[Expansión de un cristal de 8MHz]
+Un cristal de 8MHz se puede expandir conectándolo directamente a los pines pins PB6 and PB7 (pin 9 y pin 10) en el lado trasero de la placa impresa. La expasión que yo hice fue sin los dos condensadores de 22pF. Esta solución ha funcionado con todos los ATmega que he probado. Tampoco es obligatorio utilizar un cristal. También puede ser útil un oscilador RC a 8MHz configurando las uniones para conseguir una mejor resolución de la medida de tiempo constante (valor de capacidad).
 
 \item[Expanding of a 8MHz crystal]
 With some skill you can expand a 8MHz crystal to the backside of the printed board
